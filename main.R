@@ -1,7 +1,9 @@
 library(r2d3)
-library("tidyverse")
+library(jsonlite)
 
-data <- fromJSON(file = "transformed_data_rows.json")
+
+jsondata <- fromJSON("transformed_data_rows.json") %>% as.data.frame
+print(jsondata)
 
 ui <- fluidPage(
   verbatimTextOutput("selected"),
@@ -11,7 +13,7 @@ ui <- fluidPage(
 server <- function(input, output) {
   output$d3 <- renderD3({
     r2d3(
-      c(0.3, 0.6, 0.8, 0.95, 0.40),
+      data = jsondata$bpm,
       script = "d3js.js"
     )
   })
