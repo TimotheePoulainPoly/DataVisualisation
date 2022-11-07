@@ -107,7 +107,7 @@ Walkaway Joe,Country music,114,260,-13.7,,,,,,,,Cmaj
 The Song Remembers When,Country music,159,234,-11.4,,,,,,,,Fmaj
 Sweet Little Jesus Boy,,113,162,-17.7,,,,,,,,Bbmaj
 Away In A Manger,,150,157,-15.6,,,,,,,,Cmaj
-Let It Snow, Let It Snow, Let It Snow,,137,146,,,,,,,,,Dmin
+Let It Snow Let It Snow, Let It Snow,,137,146,,,,,,,,,Dmin
 The Christmas Song (Chestnuts Roasting On An Open Fire),Pop music,127,238,,Jazz,Christmas music,,,,,,Amin
 Believe Me Baby (I Lied),Country music,120,222,-10,,,,,,,,Bmin
 Everybody Knows,Country music,98,194,-10.2,,,,,,,,E
@@ -179,7 +179,7 @@ Lost In The Stars,,107,237,,,,,,,,,
 Ol' Man River,,155,319,-16.3,,,,,,,,
 Till,,84.2032,176,-11.4,,,,,,,,
 Tenderly,,129.199,216,-15.1,,,,,,,,
-Bewitched, Bothered And Bewildered,,74,154,,,,,,,,,
+Bewitched Bothered And Bewildered,,74,154,,,,,,,,,
 My Funny Valentine,,118.125,157,-19,,,,,,,,
 Man That Got Away,,95,233,-18.5,,,,,,,,
 Sleepin' Bee,,85,203,,,,,,,,,
@@ -248,7 +248,7 @@ Wave,,113.9,277,-18.3,,,,,,,,
 Make It Easy On Yourself,Rhythm and blues,123.4,272,-17.8,Pop music,,,,,,,
 Come Saturday Morning,Pop music,130,264,-16.7,,,,,,,,
 Because Of You,,108.2,177,-10.5,,,,,,,,
-Cold, Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
+Cold Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
 Rags To Riches,,123,83,-17.5,,,,,,,,
 I Left My Heart In San Francisco,Traditional pop music,126,171,-14.3,,,,,,,,
 I Wanna Be Around,,104,130,-18.2,,,,,,,,
@@ -309,14 +309,14 @@ Last Night When We Were Young,,95,145,-16.3,,,,,,,,
 Angel Eyes,,93,162,-15.6,,,,,,,,
 I'll Be Seeing You,,143,176,,,,,,,,,
 Steppin' Out With My Baby,Jazz,170.1,173,-16.7,,,,,,,,
-Top Hat, White Tie And Tails,Jazz,93.5,155,-16.1,,,,,,,,
+Top Hat White Tie And Tails,Jazz,93.5,155,-16.1,,,,,,,,
 Rags To Riches,,123,83,-17.5,,,,,,,,
 Stranger In Paradise,,84,183,-11.6,,,,,,,,
 The Shadow Of Your Smile,,144,272,-14.7,,,,,,,,
 Because Of You,,108.2,177,-10.5,,,,,,,,
 Blue Velvet,Traditional pop music,131,272,-14.1,,,,,,,,
 I Left My Heart In San Francisco,Traditional pop music,126,171,-14.3,,,,,,,,
-Cold, Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
+Cold Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
 Just In Time,Pop music,154,114,-17.5,,,,,,,,
 Who Can I Turn To (When Nobody Needs Me),,144,231,-12.8,,,,,,,,
 I Wanna Be Around,,104,130,-18.2,,,,,,,,
@@ -377,7 +377,7 @@ Smile,,144,272,-14.7,,,,,,,,
 The Very Thought Of You,,102,241,-13.7,,,,,,,,
 The Shadow Of Your Smile,,144,272,-14.7,,,,,,,,
 Rags To Riches,,117,158,-13.7,,,,,,,,
-Cold, Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
+Cold Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
 If I Ruled The World,,137,174,-12.4,,,,,,,,
 The Best Is Yet To Come,Traditional pop music,132,219,-12.9,Jazz,,,,,,,
 Because Of You,,76,242,-13.3,,,,,,,,
@@ -409,7 +409,7 @@ The Way You Look Tonight,Traditional pop music,120,242,-12.5,,,,,,,,
 Steppin' Out With My Baby,Jazz,104,122,-12.7,,,,,,,,
 Who Can I Turn To (When Nobody Needs Me),,143,231,-12.4,,,,,,,,
 Just In Time,Pop music,136,136,-11,,,,,,,,
-Cold, Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
+Cold Cold Heart,Honky-tonk,99,163,-12,Country music,Blues,,,,,,
 I Wanna Be Around,,82,181,-10.1,,,,,,,,
 Rags To Riches,,78,159,-12.4,,,,,,,,
 Blue Velvet,Traditional pop music,131,272,-14.1,,,,,,,,
@@ -560,14 +560,14 @@ This Old Man,,140,105,-16.1,,,,,,,,
 Home On The Range (Cherokee Edition),,122,321,-13.2,,,,,,,,
 Big Wheel,Alternative rock,94,198,-12.5,Pop rock,,,,,,,
 Bouncing Off Clouds,Alternative rock,124,248,-11.6,Baroque pop,,,,,,,
-What Child, Nowell,,115,225,-13.2,,,,,,,,
+What Child Nowell,,115,225,-13.2,,,,,,,,
 Star Of Wonder,,137,230,-11.2,,,,,,,,
-Holly, Ivy And Rose,,128,284,-12.3,,,,,,,,
+Holly Ivy And Rose,,128,284,-12.3,,,,,,,,
 Harps Of Gold,,95,190,-12.2,,,,,,,,
-Jeanette, Isabella,,140,268,-10.8,,,,,,,,
+Jeanette Isabella,,140,268,-10.8,,,,,,,,
 Emmanuel,,128,179,-10.9,,,,,,,,
 Comfort And Joy,,162,236,-13.7,,,,,,,,
-Stille Nacht, Heilige Nacht (Silent Night, Holy Night),,162,219,-12.8,,,,,,,,
+Stille Nacht Heilige Nacht (Silent Night, Holy Night),,162,219,-12.8,,,,,,,,
 Good King Wenceslas,,138,333,,,,,,,,,
 Star Of Wonder,,137,225,-12.2,,,,,,,,
 Winter,,157,343,-12.4,,,,,,,,
@@ -747,8 +747,8 @@ Watermelon Crawl,Country music,136,181,-9.4,,,,,,,,Dmin
 The Keeper Of The Stars,Country music,153,256,-13.4,,,,,,,,Dbmaj
 Ten Rounds With Jose Cuervo,Country music,126,182,-11.5,,,,,,,,Dmaj
 Put Your Hand In Mine,Country music,146.1,272,-11.9,,,,,,,,Fmaj
-Come, Thou Fount Of Every Blessing,,122,90,-19.7,,,,,,,,Dmaj
-Come, Thou Fount Of Every Blessing,,122,90,-19.7,,,,,,,,Dmaj
+Come Thou Fount Of Every Blessing,,122,90,-19.7,,,,,,,,Dmaj
+Come Thou Fount Of Every Blessing,,122,90,-19.7,,,,,,,,Dmaj
 Talkin' Bout A Revolution,Contemporary folk music,119,161,-11.2,,,,,,,,Emin
 Fast Car,Folk music,103,296,-20.3,Adult contemporary music,Pop music,,,,,,Gbmin
 Baby Can I Hold You,Folk music,147,193,-15.5,Pop music,,,,,,,Dmaj
@@ -1060,7 +1060,7 @@ Even Better Than The Real Thing,Alternative rock,128,221,-8.4,,,,,,,,
 Beautiful Day,Rock music,136,245,-9.8,,,,,,,,
 One,Soul music,181,277,-10.6,Rock music,Downtempo,,,,,,
 Passengers:Miss Sarajevo,Rock music,104,340,-13.8,Opera,,,,,,,Abmin
-Stay (Faraway, So Close!),Alternative rock,94,299,-10.6,,,,,,,,
+Stay (Faraway So Close!),Alternative rock,94,299,-10.6,,,,,,,,
 Gone,Alternative rock,175,276,-8.4,,,,,,,,
 Until The End Of The World,Alternative rock,102,279,-9.1,,,,,,,,
 The Hands That Built America,Rock music,162,298,-11.4,,,,,,,,
@@ -1115,7 +1115,7 @@ Paint It Black,Psychedelic rock,149,200,-11.5,Psychedelic music,Latin music (gen
 Satellite Of Love,Alternative rock,99,240,-12.4,Glam rock,Art rock,,,,,,
 The Ballad Of Ronnie Drew,Folk music of Ireland,184,290,-10.2,Rock music,,,,,,,
 The Night,Italo disco,110.5,233,-11.4,,,,,,,,Fmaj
-Trials, Troubles, Tribulations,,160.9,182,-12.7,,,,,,,,
+Trials Troubles Tribulations,,160.9,182,-12.7,,,,,,,,
 Das Boot,Techno,122,314,-11.7,Rave music,,,,,,,Fmaj
 Red Red Wine,Reggae fusion,178,321,-18.3,Soft rock,Pop music,,,,,,
 I Got You Babe,Heavy metal music,173,188,-9.3,Pop music,Baroque pop,Synthpop,Reggae,Rock music,Dub (music),,
@@ -1126,13 +1126,13 @@ Here I Am (Come And Take Me),Soul music,95,257,-19.2,,,,,,,,
 The Way You Do The Things You Do,Doo-wop,161,182,-19,Pop music,Reggae,Soul music,Rhythm and blues,Soft rock,,,
 Holly Holy,Rock music,99,215,-10.9,Popular music,,,,,,,
 Dog Days Are Over,Art rock,149,213,-8.4,Indie rock,Soul music,Baroque pop,,,,,
-Warum Nur, Warum,,179,178,-8,,,,,,,,
+Warum Nur Warum,,179,178,-8,,,,,,,,
 House Of The Rising Sun,,117,211,-12.9,,,,,,,,
-Merci, Chérie,,150,194,-10.6,,,,,,,,
+Merci Chérie,,150,194,-10.6,,,,,,,,
 Griechischer Wein,,148,245,-9,,,,,,,,
 Aber Bitte Mit Sahne,Thrash metal,124,217,-9.7,,,,,,,,
-Sag Ihr, Ich Lass Sie Grüßen,,124.9,222,-9.8,,,,,,,,
-Warum Nur, Warum,,179,178,-8,,,,,,,,
+Sag Ihr Ich Lass Sie Grüßen,,124.9,222,-9.8,,,,,,,,
+Warum Nur Warum,,179,178,-8,,,,,,,,
 Justice:Tthhee Ppaarrttyy,Electroclash,119,243,-10.3,Hip hop music,,,,,,,Emaj
 All Or Nothing,,120,269,-10.7,,,,,,,,
 Mystery Train,Rockabilly,108.23,235,-9.5,Memphis blues,Blues,Electric blues,,,,,
@@ -1140,7 +1140,7 @@ All Or Nothing,,120,269,-10.7,,,,,,,,
 Breaking Benjamin:Blow Me Away (Valora Version),Alternative metal,99,205,-7.3,Hard rock,,,,,,,Gmin
 The Night The Lights Went Out In Georgia,Country music,86,220,,Country pop,,,,,,,Ebmin
 Turn The Beat Around,Disco,130,203,-8.8,Dance-pop,Hi-NRG,,,,,,
-Joyful, Joyful,,110,274,-14.6,,,,,,,,G
+Joyful Joyful,,110,274,-14.6,,,,,,,,G
 Mary Did You Know,Contemporary Christian music,110.2,251,-15.1,Country music,Gospel,,,,,,Amin
 Giving Up The Gun,Synthpop,133.8,286,-7.9,Indie pop,,,,,,,Amaj
 Oxford Comma,Indie pop,119.8,195,-8.6,Blue-eyed soul,,,,,,,A
