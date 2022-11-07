@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Nutrient Parallel Coordinates IV</title>
+<title>Music Viz</title>
 <body>
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
@@ -8,16 +8,16 @@
 <script>
 var margin = {top: 66, right: 110, bottom: 20, left: 188},
     width = document.body.clientWidth - margin.left - margin.right,
-    height = 340 - margin.top - margin.bottom,
+    height = 640 - margin.top - margin.bottom,
     innerHeight = height - 2;
 
 var devicePixelRatio = window.devicePixelRatio || 1;
 
 var color = d3.scaleOrdinal()
-  .domain(['Amin', 'Amaj', 'Abmin', 'Abmaj', 'Bmin', 'Bmaj', 'Bbmin', 'Bbmaj', 'Cmin', 'Cmaj', 'Dmin', 'Dmaj', 'Dbmin', 'Dbmaj', 'Emin', 'Emaj', 'Ebmin', 'Ebmaj', 'Fmin', 'Fmaj', 'Gmin', 'Gmaj', 'Gbmin', 'Gbmaj'])
-  .range(["#DB7F85", "#50AB84", "#4C6C86", "#C47DCB", "#B59248", "#DD6CA7", "#E15E5A", "#5DA5B3", "#725D82", "#54AF52", "#954D56", "#8C92E8", "#AB9C27", "#D67D4B", "#D58323", "#BA89AD", "#357468", "#8F86C2", "#7D9E33", "#517C3F", "#9D5130", "#5E9ACF", "#776327", "#944F7E"]);
+  .domain(['Jazz', 'Alternative rock', 'Pop music', 'Garage rock', 'Blue-eyed soul', 'Rock music', 'Power pop', 'Pop rock', 'New wave music', 'Psychedelic rock', 'Feminism', 'Teen pop', 'Bubblegum pop', 'Blues', '', 'Hip hop music', 'Folk music', 'Soul music', 'Neue Deutsche Welle', 'Rocksong', 'Electroclash', 'Rap rock', 'Post-grunge', 'Country music', 'Metalcore', 'Melodic metalcore', 'Thrash metal', 'Heavy metal music', 'Twelve-bar blues', 'Traditional pop music', 'Folk jazz', 'Bossa nova', 'Easy listening', 'Rhythm and blues', 'Honky-tonk', 'Folk rock', 'Soft rock', 'Smooth jazz', 'Memphis soul', 'Talking blues', 'Experimental rock', 'Proto-punk', 'Electropop', 'Bluegrass music', 'Hard rock', 'Contemporary R&B', 'Neo soul', 'Reggae', 'Glam metal', 'Synthpop', 'A cappella', 'Grunge', 'Baroque pop', 'Electronic dance music', 'Electronic music', 'Dance music', 'Disco', 'Adult contemporary music', 'Deep house', 'Progressive house', 'Country rock', 'Country pop', 'Post-punk', 'Drum and bass', 'Hard trance', 'Popmusik', 'Electro house', 'Indie rock', 'Art rock', 'Hip hop soul', 'Indie pop', 'Alternative hip hop', 'Contemporary folk music', 'Blues rock', 'Psychedelic pop', 'Jazz fusion', 'Trip hop', 'Lo-fi music', 'Post-punk revival', 'Dance-punk', 'Trap music', 'Hyphy', 'Pop-rap', 'Celtic music', 'Dance-pop', 'Gospel music', 'Slow jam', 'Crunk', 'Hi-NRG', 'Gothic metal', 'Snap music', 'Power metal', 'Reggae fusion', 'Ambient music', 'Heartland rock', 'Industrial rock', 'Alternative dance', 'Electronic rock', 'Techno', 'Glam rock', 'Rock and roll', 'Funk rock', 'Folk music of Ireland', 'Italo disco', 'Doo-wop', 'Rockabilly', 'Alternative metal', 'Contemporary Christian music', 'Surf music', 'Operatic pop', 'Tulsa Sound', 'Traditional heavy metal', 'Instrumental rock', 'Flamenco', 'Arena rock', 'Sentimental ballad', 'Music of Ireland', 'Classic rock', 'Hymn', 'Celtic rock', 'Indie folk', 'House music', 'Dance-rock', 'Piano', 'Film score', 'Acid rock', 'Viking metal', 'Gothic rock', 'Dubstep', 'Broadway theatre', 'Popular music', 'Southern hip hop', 'Emo', 'Pop punk', 'Funk', 'World music', 'Acoustic music', 'Progressive rock', 'Post-disco', 'Soft rock'])
+  .range(["#DB7F85", "#50AB84", "#4C6C86", "#C47DCB", "#B59248", "#DD6CA7", "#E15E5A", "#5DA5B3", "#725D82", "#54AF52", "#954D56", "#8C92E8", "#D8597D", "#AB9C27", "#D67D4B", "#D58323", "#BA89AD", "#357468", "#8F86C2", "#7D9E33", "#517C3F", "#9D5130", "#5E9ACF", "#776327", "#944F7E", "#DB7F85", "#50AB84", "#4C6C86", "#C47DCB", "#B59248", "#DD6CA7", "#E15E5A", "#5DA5B3", "#725D82", "#54AF52", "#954D56", "#8C92E8", "#D8597D", "#AB9C27", "#D67D4B", "#D58323", "#BA89AD", "#357468", "#8F86C2", "#7D9E33", "#517C3F", "#9D5130", "#5E9ACF", "#776327", "#944F7E", "#DB7F85", "#50AB84", "#4C6C86", "#C47DCB", "#B59248", "#DD6CA7", "#E15E5A", "#5DA5B3", "#725D82", "#54AF52", "#954D56", "#8C92E8", "#D8597D", "#AB9C27", "#D67D4B", "#D58323", "#BA89AD", "#357468", "#8F86C2", "#7D9E33", "#517C3F", "#9D5130", "#5E9ACF", "#776327", "#944F7E", "#DB7F85", "#50AB84", "#4C6C86", "#C47DCB", "#B59248", "#DD6CA7", "#E15E5A", "#5DA5B3", "#725D82", "#54AF52", "#954D56", "#8C92E8", "#D8597D", "#AB9C27", "#D67D4B", "#D58323", "#BA89AD", "#357468", "#8F86C2", "#7D9E33", "#517C3F", "#9D5130", "#5E9ACF", "#776327", "#944F7E", "#DB7F85", "#50AB84", "#4C6C86", "#C47DCB", "#B59248", "#DD6CA7", "#E15E5A", "#5DA5B3", "#725D82", "#54AF52", "#954D56", "#8C92E8", "#D8597D", "#AB9C27", "#D67D4B", "#D58323", "#BA89AD", "#357468", "#8F86C2", "#7D9E33", "#517C3F", "#9D5130", "#5E9ACF", "#776327", "#944F7E", "#DB7F85", "#50AB84", "#4C6C86", "#C47DCB", "#B59248", "#DD6CA7", "#E15E5A", "#5DA5B3", "#725D82", "#54AF52", "#954D56", "#8C92E8", "#D8597D", "#AB9C27", "#D67D4B"]);
 
-var types = {
+  var types = {
   "Number": {
     key: "Number",
     coerce: function(d) { return +d; },
@@ -31,21 +31,15 @@ var types = {
     extent: function (data) { return data.sort(); },
     within: function(d, extent, dim) { return extent[0] <= dim.scale(d) && dim.scale(d) <= extent[1]; },
     defaultScale: d3.scalePoint().range([0, innerHeight])
-  },
-  "Date": {
-    key: "Date",
-    coerce: function(d) { return new Date(d); },
-    extent: d3.extent,
-    within: function(d, extent, dim) { return extent[0] <= dim.scale(d) && dim.scale(d) <= extent[1]; },
-    defaultScale: d3.scaleTime().range([innerHeight, 0])
   }
 };
 
 var dimensions = [
   {
-    key: "title",
-    description: "Title",
+    key: "genres",
+    description: "Genre",
     type: types["String"],
+    domain: ['Jazz', 'Alternative rock', 'Pop music', 'Garage rock', 'Blue-eyed soul', 'Rock music', 'Power pop', 'Pop rock', 'New wave music', 'Psychedelic rock', 'Feminism', 'Teen pop', 'Bubblegum pop', 'Blues', '', 'Hip hop music', 'Folk music', 'Soul music', 'Neue Deutsche Welle', 'Rocksong', 'Electroclash', 'Rap rock', 'Post-grunge', 'Country music', 'Metalcore', 'Melodic metalcore', 'Thrash metal', 'Heavy metal music', 'Twelve-bar blues', 'Traditional pop music', 'Folk jazz', 'Bossa nova', 'Easy listening', 'Rhythm and blues', 'Honky-tonk', 'Folk rock', 'Soft rock', 'Smooth jazz', 'Memphis soul', 'Talking blues', 'Experimental rock', 'Proto-punk', 'Electropop', 'Bluegrass music', 'Hard rock', 'Contemporary R&B', 'Neo soul', 'Reggae', 'Glam metal', 'Synthpop', 'A cappella', 'Grunge', 'Baroque pop', 'Electronic dance music', 'Electronic music', 'Dance music', 'Disco', 'Adult contemporary music', 'Deep house', 'Progressive house', 'Country rock', 'Country pop', 'Post-punk', 'Drum and bass', 'Hard trance', 'Popmusik', 'Electro house', 'Indie rock', 'Art rock', 'Hip hop soul', 'Indie pop', 'Alternative hip hop', 'Contemporary folk music', 'Blues rock', 'Psychedelic pop', 'Jazz fusion', 'Trip hop', 'Lo-fi music', 'Post-punk revival', 'Dance-punk', 'Trap music', 'Hyphy', 'Pop-rap', 'Celtic music', 'Dance-pop', 'Gospel music', 'Slow jam', 'Crunk', 'Hi-NRG', 'Gothic metal', 'Snap music', 'Power metal', 'Reggae fusion', 'Ambient music', 'Heartland rock', 'Industrial rock', 'Alternative dance', 'Electronic rock', 'Techno', 'Glam rock', 'Rock and roll', 'Funk rock', 'Folk music of Ireland', 'Italo disco', 'Doo-wop', 'Rockabilly', 'Alternative metal', 'Contemporary Christian music', 'Surf music', 'Operatic pop', 'Tulsa Sound', 'Traditional heavy metal', 'Instrumental rock', 'Flamenco', 'Arena rock', 'Sentimental ballad', 'Music of Ireland', 'Classic rock', 'Hymn', 'Celtic rock', 'Indie folk', 'House music', 'Dance-rock', 'Piano', 'Film score', 'Acid rock', 'Viking metal', 'Gothic rock', 'Dubstep', 'Broadway theatre', 'Popular music', 'Southern hip hop', 'Emo', 'Pop punk', 'Funk', 'World music', 'Acoustic music', 'Progressive rock', 'Post-disco', 'Soft rock'],
     axis: d3.axisLeft()
       .tickFormat(function(d,i) {
         return d;
@@ -183,7 +177,7 @@ d3.csv(url, function(error, data) {
   d3.selectAll(".axis.title .tick text")
     .style("fill", color);
     
-  output.text(d3.tsvFormat(data.slice(0,24)));
+  output.text(d3.tsvFormat(data.slice(0,10)));
 
   function project(d) {
     return dimensions.map(function(p,i) {
@@ -198,7 +192,7 @@ d3.csv(url, function(error, data) {
   };
 
   function draw(d) {
-    ctx.strokeStyle = color(d.pl_discmethod);
+    ctx.strokeStyle = color(d.genres);
     ctx.beginPath();
     var coords = project(d);
     coords.forEach(function(p,i) {
