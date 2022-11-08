@@ -12,7 +12,7 @@
 
   var margin = {top: 66, right: 110, bottom: 20, left: 188},
       width = document.body.clientWidth - margin.left - margin.right,
-      height = 640 - margin.top - margin.bottom,
+      height = 340 - margin.top - margin.bottom,
       innerHeight = height - 2;
 
   var devicePixelRatio = window.devicePixelRatio || 1;
@@ -39,7 +39,7 @@ var color = d3.scaleOrdinal()
 };
 
 var dimensions = [
-  {
+  /*{
     key: "genres",
     description: "Genre",
     type: types["String"],
@@ -48,7 +48,7 @@ var dimensions = [
       .tickFormat(function(d,i) {
         return d;
       })
-  },
+  },*/
   {
     key: "bpm",
     description: "Tempo (BPM)",
@@ -120,6 +120,11 @@ const url = "https://raw.githubusercontent.com/TimotheePoulainPoly/DataVisualisa
 
 d3.csv(url, function(error, data) {
   if (error) throw error;
+
+  select = document.getElementById("selectMenu");
+  select.addEventListener("change", function (){
+    brush();
+  });
 
   data.forEach(function(d) {
     dimensions.forEach(function(p) {
@@ -250,7 +255,11 @@ d3.csv(url, function(error, data) {
         });
       });
 
-    var selected = data.filter(function(d) {
+    var dat = data.filter(function(d) {
+      return d.genres = document.getElementById("selectMenu").value;
+    });
+
+    var selected = dat.filter(function(d) {
       if (actives.every(function(active) {
           var dim = active.dimension;
           // test if point is within extents for each active brush
@@ -270,15 +279,6 @@ d3.csv(url, function(error, data) {
 });
 
 function genrePicker(genres) {
-  // create a new div element
-  const newDiv = document.createElement("div");
-
-  // and give it some content
-  const newContent = document.createTextNode("Hi there and greetings!");
-
-  // add the text node to the newly created div
-  newDiv.appendChild(newContent);
-
   var select = document.createElement("select");
   select.id = 'selectMenu';
   if (document.getElementById('select') != null){
@@ -297,6 +297,7 @@ function genrePicker(genres) {
   const endDiv = document.getElementById("end-form");
   document.body.insertBefore(select, endDiv);
 };
+
 
 function d3_functor(v) {
   return typeof v === "function" ? v : function() { return v; };
