@@ -254,11 +254,11 @@ d3.csv(url, function(error, data) {
         });
       });
 
-    var dat = data.filter(function(d) {
-      return d.genres = document.getElementById("selectMenu").value;
+    var selected = data.filter(function(d) {
+      return d.genres == document.getElementById("selectMenu").value;
     });
 
-    var selected = dat.filter(function(d) {
+    selected = selected.filter(function(d) {
       if (actives.every(function(active) {
           var dim = active.dimension;
           // test if point is within extents for each active brush
@@ -280,11 +280,7 @@ d3.csv(url, function(error, data) {
     let genre = document.getElementById("selectMenu").value;
     var title = document.getElementById('title');
     title.innerHTML = "Selected genre : "+genre;
-
-    var songs = document.getElementById('songs');
-    songs.innerHTML = "Most popular songs : "+topSongs(selected);
-
-    console.log(topSongs(selected));
+    topSongs(selected);
     //d3.tsvFormat(selected.slice(0,10))
 
   }
@@ -315,17 +311,35 @@ function mostUsedKey(selected) {
 }
 
 function topSongs(selected) {
-  songs = [];
-  selected.slice(0, 10).forEach(s => {
+  var table = document.getElementById('songs');
+  table.innerHTML = "<tr><td>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td></tr>";
+  selected.slice(0, 5).forEach(s => {
     song = {title: s.title, bpm: s.bpm, length: s.length, gain: s.gain}
-    songs.push(song);
+    console.log(song);
+    const tr = document.createElement('tr');
+
+    const td1 = document.createElement('td');
+    let cellText = document.createTextNode(song.title);
+    td1.appendChild(cellText);
+    tr.appendChild(td1);
+
+    const td2 = document.createElement('td');
+    cellText = document.createTextNode(song.bpm);
+    td2.appendChild(cellText);
+    tr.appendChild(td2);
+
+    const td3 = document.createElement('td');
+    cellText = document.createTextNode(song.length);
+    td3.appendChild(cellText);
+    tr.appendChild(td3);
+
+    const td4 = document.createElement('td');
+    cellText = document.createTextNode(song.gain);
+    td4.appendChild(cellText);
+    tr.appendChild(td4);
+
+    table.appendChild(tr);
   });
-  html = "<ul>"
-  songs.forEach(song => {
-    html += "<li>"+song.title+"</li>";
-  });
-  html += "</ul>"
-  return html;
 }
 
 function d3_functor(v) {
@@ -334,7 +348,10 @@ function d3_functor(v) {
 </script>
 <div id="details">
   <h2 id = title></h2>
-  <h3 id = "songs"></h3>
+  <h3>Most popular songs :</h3>
+  <table>
+    <tbody id="songs"></tbody>
+  </table>
 </div>
 
 <div id="bar_chart"></div>
