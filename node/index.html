@@ -312,7 +312,7 @@ function mostUsedKey(selected) {
 
 function topSongs(selected) {
   var table = document.getElementById('songs');
-  table.innerHTML = "<tr><td>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td></tr>";
+  table.innerHTML = "<tr><td style='width: 50%'>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td></tr>";
   selected.slice(0, 5).forEach(s => {
     song = {title: s.title, bpm: s.bpm, length: s.length, gain: s.gain}
     console.log(song);
@@ -329,7 +329,9 @@ function topSongs(selected) {
     tr.appendChild(td2);
 
     const td3 = document.createElement('td');
-    cellText = document.createTextNode(song.length);
+    const min = Math.floor(song.length / 60);
+    const sec = song.length - min*60;
+    cellText = document.createTextNode(min+":"+str_pad_left(sec,'0',2));
     td3.appendChild(cellText);
     tr.appendChild(td3);
 
@@ -340,6 +342,10 @@ function topSongs(selected) {
 
     table.appendChild(tr);
   });
+}
+
+function str_pad_left(string,pad,length) {
+    return (new Array(length+1).join(pad)+string).slice(-length);
 }
 
 function d3_functor(v) {
