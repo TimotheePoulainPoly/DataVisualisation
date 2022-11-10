@@ -255,7 +255,14 @@ d3.csv(url, function(error, data) {
       });
 
     var selected = data.filter(function(d) {
-      return d.genres == document.getElementById("selectMenu").value;
+      return (d.genres == document.getElementById("selectMenu").value) ||
+      (d.genres_1 == document.getElementById("selectMenu").value) ||
+      (d.genres_2 == document.getElementById("selectMenu").value) ||
+      (d.genres_3 == document.getElementById("selectMenu").value) ||
+      (d.genres_4 == document.getElementById("selectMenu").value) ||
+      (d.genres_5 == document.getElementById("selectMenu").value) ||
+      (d.genres_6 == document.getElementById("selectMenu").value) ||
+      (d.genres_7 == document.getElementById("selectMenu").value);
     });
 
     selected = selected.filter(function(d) {
