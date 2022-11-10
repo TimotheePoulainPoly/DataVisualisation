@@ -2,16 +2,31 @@
 <meta charset="utf-8">
 <title>Music Viz</title>
 <body>
-<script src="https://d3js.org/d3.v4.js"></script>
-<script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
-<link rel="stylesheet" href="style.css"></link>
-<div id="end-form"></div>
-<div id="parallel-chart"></div>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
+  <link rel="stylesheet" href="style.css"></link>
+  <div id="end-form"></div>
+  <div id="parallel-chart"></div>
+  <div id="title"></div>
+
+  <div id="bottom">
+    <div id="details">
+      <h3>Most popular songs :</h3>
+      <table>
+        <tbody id="songs"></tbody>
+      </table>
+    </div>
+    <div id="box_chart">
+      <div id="box-bpm"></div>
+    </div>
+  </div>
+</body>
+
 <script>
   const genres = ['Jazz', 'Alternative rock', 'Pop music', 'Garage rock', 'Blue-eyed soul', 'Rock music', 'Power pop', 'Pop rock', 'New wave music', 'Psychedelic rock', 'Feminism', 'Teen pop', 'Bubblegum pop', 'Blues', '', 'Hip hop music', 'Folk music', 'Soul music', 'Neue Deutsche Welle', 'Rocksong', 'Electroclash', 'Rap rock', 'Post-grunge', 'Country music', 'Metalcore', 'Melodic metalcore', 'Thrash metal', 'Heavy metal music', 'Twelve-bar blues', 'Traditional pop music', 'Folk jazz', 'Bossa nova', 'Easy listening', 'Rhythm and blues', 'Honky-tonk', 'Folk rock', 'Soft rock', 'Smooth jazz', 'Memphis soul', 'Talking blues', 'Experimental rock', 'Proto-punk', 'Electropop', 'Bluegrass music', 'Hard rock', 'Contemporary R&B', 'Neo soul', 'Reggae', 'Glam metal', 'Synthpop', 'A cappella', 'Grunge', 'Baroque pop', 'Electronic dance music', 'Electronic music', 'Dance music', 'Disco', 'Adult contemporary music', 'Deep house', 'Progressive house', 'Country rock', 'Country pop', 'Post-punk', 'Drum and bass', 'Hard trance', 'Popmusik', 'Electro house', 'Indie rock', 'Art rock', 'Hip hop soul', 'Indie pop', 'Alternative hip hop', 'Contemporary folk music', 'Blues rock', 'Psychedelic pop', 'Jazz fusion', 'Trip hop', 'Lo-fi music', 'Post-punk revival', 'Dance-punk', 'Trap music', 'Hyphy', 'Pop-rap', 'Celtic music', 'Dance-pop', 'Gospel music', 'Slow jam', 'Crunk', 'Hi-NRG', 'Gothic metal', 'Snap music', 'Power metal', 'Reggae fusion', 'Ambient music', 'Heartland rock', 'Industrial rock', 'Alternative dance', 'Electronic rock', 'Techno', 'Glam rock', 'Rock and roll', 'Funk rock', 'Folk music of Ireland', 'Italo disco', 'Doo-wop', 'Rockabilly', 'Alternative metal', 'Contemporary Christian music', 'Surf music', 'Operatic pop', 'Tulsa Sound', 'Traditional heavy metal', 'Instrumental rock', 'Flamenco', 'Arena rock', 'Sentimental ballad', 'Music of Ireland', 'Classic rock', 'Hymn', 'Celtic rock', 'Indie folk', 'House music', 'Dance-rock', 'Piano', 'Film score', 'Acid rock', 'Viking metal', 'Gothic rock', 'Dubstep', 'Broadway theatre', 'Popular music', 'Southern hip hop', 'Emo', 'Pop punk', 'Funk', 'World music', 'Acoustic music', 'Progressive rock', 'Post-disco', 'Soft rock'];
   genrePicker(genres);
 
-  var margin = {top: 66, right: 110, bottom: 60, left: 110},
+  var margin = {top: 40, right: 110, bottom: 20, left: 110},
       width = document.body.clientWidth - margin.left - margin.right,
       height = 340 - margin.top - margin.bottom,
       innerHeight = height - 2;
@@ -279,6 +294,7 @@ d3.csv(url, function(error, data) {
     ctx.globalAlpha = d3.min([0.85/Math.pow(selected.length,0.3),1]);
     render(selected);
     details(selected);
+    drawBox(selected, "bpm");
   }
 
   function details(selected) {
@@ -286,7 +302,7 @@ d3.csv(url, function(error, data) {
     console.log(selected);
     let genre = document.getElementById("selectMenu").value;
     var title = document.getElementById('title');
-    title.innerHTML = "Selected genre : "+genre;
+    title.innerHTML = "<h3>Selected genre : "+genre+"</h3>";
     topSongs(selected);
     //d3.tsvFormat(selected.slice(0,10))
 
@@ -322,7 +338,6 @@ function topSongs(selected) {
   table.innerHTML = "<tr><td style='width: 50%'>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td><td>Key</td></tr>";
   selected.slice(0, 10).forEach(s => {
     song = {title: s.title, bpm: s.bpm, length: s.length, gain: s.gain, key: s.key}
-    console.log(song);
     const tr = document.createElement('tr');
 
     const td1 = document.createElement('td');
@@ -366,13 +381,80 @@ function str_pad_left(string,pad,length) {
 function d3_functor(v) {
   return typeof v === "function" ? v : function() { return v; };
 };
-</script>
-<div id="details">
-  <h2 id = title></h2>
-  <h3>Most popular songs :</h3>
-  <table>
-    <tbody id="songs"></tbody>
-  </table>
-</div>
 
-<div id="bar_chart"></div>
+function drawBox(selection, param) {
+  var divbox = document.getElementById("box-"+param);
+  divbox.innerHTML = "";
+
+    // set the dimensions and margins of the graph
+  var margins = {top: 10, right: 30, bottom: 30, left: 40},
+    width1 = 400 - margins.left - margins.right,
+    height1 = 400 - margins.top - margins.bottom;
+
+  // append the svg object to the body of the page
+  var svg1 = d3.select("#box-"+param)
+  .append("svg")
+    .attr("width", width1 + margins.left + margins.right)
+    .attr("height", height1 + margins.top + margins.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margins.left + "," + margins.top + ")");
+
+  // create dummy data
+  var databox = [];
+  selection.forEach(s => {
+    databox.push(s[param]);
+  });
+  console.log(databox);
+
+  // Compute summary statistics used for the box:
+  var data_sorted = databox.sort(d3.ascending)
+  var q1 = d3.quantile(data_sorted, .25)
+  var median = d3.quantile(data_sorted, .5)
+  var q3 = d3.quantile(data_sorted, .75)
+  var interQuantileRange = q3 - q1
+  var min = q1 - 1.5 * interQuantileRange
+  var max = q1 + 1.5 * interQuantileRange
+
+  // Show the Y scale
+  var y = d3.scaleLinear()
+    .domain([0, 200])
+    .range([height1, 0]);
+  svg1.call(d3.axisLeft(y))
+
+  // a few features for the box
+  var center1 = 200
+  var width1 = 100
+
+  // Show the main vertical line
+  svg1
+  .append("line")
+    .attr("x1", center1)
+    .attr("x2", center1)
+    .attr("y1", y(min) )
+    .attr("y2", y(max) )
+    .attr("stroke", "black")
+
+  // Show the box
+  svg1
+  .append("rect")
+    .attr("x", center1 - width1/2)
+    .attr("y", y(q3) )
+    .attr("height", (y(q1)-y(q3)) )
+    .attr("width", width1 )
+    .attr("stroke", "black")
+    .style("fill", "#69b3a2")
+
+  // show median, min and max horizontal lines
+  svg1
+  .selectAll("toto")
+  .data([min, median, max])
+  .enter()
+  .append("line")
+    .attr("x1", center1-width1/2)
+    .attr("x2", center1+width1/2)
+    .attr("y1", function(d){ return(y(d))} )
+    .attr("y2", function(d){ return(y(d))} )
+    .attr("stroke", "black")
+}
+</script>
