@@ -108,7 +108,7 @@ body {
     float: left;
   }
 
-  #box-chart {
-    width: 60%;
-    border: 1px solid;
+  #box-bpm, #box-length, #box-gain {
+    width: 20%;
+    float: left;
   }

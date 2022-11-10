@@ -16,9 +16,9 @@
         <tbody id="songs"></tbody>
       </table>
     </div>
-    <div id="box_chart">
-      <div id="box-bpm"></div>
-    </div>
+    <div id="box-bpm"></div>
+    <div id="box-length"></div>
+    <div id="box-gain"></div>
   </div>
 </body>
 
@@ -294,7 +294,9 @@ d3.csv(url, function(error, data) {
     ctx.globalAlpha = d3.min([0.85/Math.pow(selected.length,0.3),1]);
     render(selected);
     details(selected);
-    drawBox(selected, "bpm");
+    drawBox(selected, "bpm", 30, 200);
+    drawBox(selected, "length", 0, 600);
+    drawBox(selected, "gain", -30, 0);
   }
 
   function details(selected) {
@@ -336,7 +338,7 @@ function mostUsedKey(selected) {
 function topSongs(selected) {
   var table = document.getElementById('songs');
   table.innerHTML = "<tr><td style='width: 50%'>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td><td>Key</td></tr>";
-  selected.slice(0, 10).forEach(s => {
+  selected.slice(0, 7).forEach(s => {
     song = {title: s.title, bpm: s.bpm, length: s.length, gain: s.gain, key: s.key}
     const tr = document.createElement('tr');
 
@@ -382,14 +384,14 @@ function d3_functor(v) {
   return typeof v === "function" ? v : function() { return v; };
 };
 
-function drawBox(selection, param) {
+function drawBox(selection, param, scaleMin, scaleMax) {
   var divbox = document.getElementById("box-"+param);
   divbox.innerHTML = "";
 
     // set the dimensions and margins of the graph
   var margins = {top: 10, right: 30, bottom: 30, left: 40},
-    width1 = 400 - margins.left - margins.right,
-    height1 = 400 - margins.top - margins.bottom;
+    width1 = 200 - margins.left - margins.right,
+    height1 = 360 - margins.top - margins.bottom;
 
   // append the svg object to the body of the page
   var svg1 = d3.select("#box-"+param)
@@ -418,12 +420,12 @@ function drawBox(selection, param) {
 
   // Show the Y scale
   var y = d3.scaleLinear()
-    .domain([0, 200])
+    .domain([scaleMin, scaleMax])
     .range([height1, 0]);
   svg1.call(d3.axisLeft(y))
 
   // a few features for the box
-  var center1 = 200
+  var center1 = 100
   var width1 = 100
 
   // Show the main vertical line
