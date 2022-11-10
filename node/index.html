@@ -11,7 +11,7 @@
   const genres = ['Jazz', 'Alternative rock', 'Pop music', 'Garage rock', 'Blue-eyed soul', 'Rock music', 'Power pop', 'Pop rock', 'New wave music', 'Psychedelic rock', 'Feminism', 'Teen pop', 'Bubblegum pop', 'Blues', '', 'Hip hop music', 'Folk music', 'Soul music', 'Neue Deutsche Welle', 'Rocksong', 'Electroclash', 'Rap rock', 'Post-grunge', 'Country music', 'Metalcore', 'Melodic metalcore', 'Thrash metal', 'Heavy metal music', 'Twelve-bar blues', 'Traditional pop music', 'Folk jazz', 'Bossa nova', 'Easy listening', 'Rhythm and blues', 'Honky-tonk', 'Folk rock', 'Soft rock', 'Smooth jazz', 'Memphis soul', 'Talking blues', 'Experimental rock', 'Proto-punk', 'Electropop', 'Bluegrass music', 'Hard rock', 'Contemporary R&B', 'Neo soul', 'Reggae', 'Glam metal', 'Synthpop', 'A cappella', 'Grunge', 'Baroque pop', 'Electronic dance music', 'Electronic music', 'Dance music', 'Disco', 'Adult contemporary music', 'Deep house', 'Progressive house', 'Country rock', 'Country pop', 'Post-punk', 'Drum and bass', 'Hard trance', 'Popmusik', 'Electro house', 'Indie rock', 'Art rock', 'Hip hop soul', 'Indie pop', 'Alternative hip hop', 'Contemporary folk music', 'Blues rock', 'Psychedelic pop', 'Jazz fusion', 'Trip hop', 'Lo-fi music', 'Post-punk revival', 'Dance-punk', 'Trap music', 'Hyphy', 'Pop-rap', 'Celtic music', 'Dance-pop', 'Gospel music', 'Slow jam', 'Crunk', 'Hi-NRG', 'Gothic metal', 'Snap music', 'Power metal', 'Reggae fusion', 'Ambient music', 'Heartland rock', 'Industrial rock', 'Alternative dance', 'Electronic rock', 'Techno', 'Glam rock', 'Rock and roll', 'Funk rock', 'Folk music of Ireland', 'Italo disco', 'Doo-wop', 'Rockabilly', 'Alternative metal', 'Contemporary Christian music', 'Surf music', 'Operatic pop', 'Tulsa Sound', 'Traditional heavy metal', 'Instrumental rock', 'Flamenco', 'Arena rock', 'Sentimental ballad', 'Music of Ireland', 'Classic rock', 'Hymn', 'Celtic rock', 'Indie folk', 'House music', 'Dance-rock', 'Piano', 'Film score', 'Acid rock', 'Viking metal', 'Gothic rock', 'Dubstep', 'Broadway theatre', 'Popular music', 'Southern hip hop', 'Emo', 'Pop punk', 'Funk', 'World music', 'Acoustic music', 'Progressive rock', 'Post-disco', 'Soft rock'];
   genrePicker(genres);
 
-  var margin = {top: 66, right: 110, bottom: 60, left: 188},
+  var margin = {top: 66, right: 110, bottom: 60, left: 110},
       width = document.body.clientWidth - margin.left - margin.right,
       height = 340 - margin.top - margin.bottom,
       innerHeight = height - 2;
@@ -312,9 +312,9 @@ function mostUsedKey(selected) {
 
 function topSongs(selected) {
   var table = document.getElementById('songs');
-  table.innerHTML = "<tr><td style='width: 50%'>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td></tr>";
-  selected.slice(0, 5).forEach(s => {
-    song = {title: s.title, bpm: s.bpm, length: s.length, gain: s.gain}
+  table.innerHTML = "<tr><td style='width: 50%'>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td><td>Key</td></tr>";
+  selected.slice(0, 10).forEach(s => {
+    song = {title: s.title, bpm: s.bpm, length: s.length, gain: s.gain, key: s.key}
     console.log(song);
     const tr = document.createElement('tr');
 
@@ -336,10 +336,18 @@ function topSongs(selected) {
     tr.appendChild(td3);
 
     const td4 = document.createElement('td');
-    cellText = document.createTextNode(song.gain);
-    td4.appendChild(cellText);
+    if (song.gain != null){
+      cellText = document.createTextNode(song.gain);
+      td4.appendChild(cellText);
+    }
     tr.appendChild(td4);
 
+    const td5 = document.createElement('td');
+    if (song.key != null){
+      cellText = document.createTextNode(song.key);
+      td5.appendChild(cellText);
+    }
+    tr.appendChild(td5);
     table.appendChild(tr);
   });
 }
