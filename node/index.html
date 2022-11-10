@@ -9,7 +9,7 @@
   <script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
   <link rel="stylesheet" href="style.css"></link>
   <div id="end-form"></div>
-  <div id="title"><h3>Sélectionnez un genre</h3></div>
+  <div id="title"><h3>Pick a genre</h3></div>
   <div id="parallel-chart"></div>
   
 
@@ -322,7 +322,7 @@ function genrePicker(genres) {
     document.getElementById('list').removeChild(select);
   }
   var option = document.createElement("option");
-  option.text = "Sélectionnez un genre";
+  option.text = "Pick a genre";
   select.appendChild(option);
   for (const genre of genres){
     var option = document.createElement("option");
