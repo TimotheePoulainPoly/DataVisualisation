@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Music Viz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <body>
   <script src="https://d3js.org/d3.v4.js"></script>
   <script src="https://bl.ocks.org/syntagmatic/raw/3341641/render-queue.js"></script>
   <link rel="stylesheet" href="style.css"></link>
   <div id="end-form"></div>
+  <div id="title"><h3>Sélectionnez un genre</h3></div>
   <div id="parallel-chart"></div>
-  <div id="title"></div>
+  
 
   <div id="bottom">
     <div id="details">
@@ -28,7 +32,7 @@
 
   var margin = {top: 40, right: 110, bottom: 20, left: 110},
       width = document.body.clientWidth - margin.left - margin.right,
-      height = 340 - margin.top - margin.bottom,
+      height = 320 - margin.top - margin.bottom,
       innerHeight = height - 2;
 
   var devicePixelRatio = window.devicePixelRatio || 1;
@@ -304,7 +308,7 @@ d3.csv(url, function(error, data) {
     console.log(selected);
     let genre = document.getElementById("selectMenu").value;
     var title = document.getElementById('title');
-    title.innerHTML = "<h3>Selected genre : "+genre+"</h3>";
+    title.innerHTML = "<h3>Selected genre : <b>"+genre+"</b></h3>";
     topSongs(selected);
     //d3.tsvFormat(selected.slice(0,10))
 
@@ -338,7 +342,7 @@ function mostUsedKey(selected) {
 function topSongs(selected) {
   var table = document.getElementById('songs');
   table.innerHTML = "<tr><td style='width: 50%'>Song</td><td>Tempo (BPM)</td><td>Length (m:s)</td><td>Gain (dB)</td><td>Key</td></tr>";
-  selected.slice(0, 7).forEach(s => {
+  selected.slice(0, 5).forEach(s => {
     song = {title: s.title, bpm: s.bpm, length: s.length, gain: s.gain, key: s.key}
     const tr = document.createElement('tr');
 
