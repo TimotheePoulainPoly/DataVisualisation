@@ -11,7 +11,7 @@
 
   <div id="bottom">
     <div id="details">
-      <h3>Most popular songs :</h3>
+      <h3>Most popular songs</h3>
       <table>
         <tbody id="songs"></tbody>
       </table>
@@ -388,10 +388,23 @@ function drawBox(selection, param, scaleMin, scaleMax) {
   var divbox = document.getElementById("box-"+param);
   divbox.innerHTML = "";
 
+  const legend = document.createElement("h4");
+  if (param == "bpm") {
+    legend.innerHTML = "Tempo (BPM)";
+  }
+  else if (param == "length") {
+    legend.innerHTML = "Length (s)";
+  }
+  else {
+    legend.innerHTML = "Gain (dB)";
+  }
+  legend.style = "text-align: center";
+  divbox.appendChild(legend);
+
     // set the dimensions and margins of the graph
-  var margins = {top: 10, right: 30, bottom: 30, left: 40},
-    width1 = 200 - margins.left - margins.right,
-    height1 = 360 - margins.top - margins.bottom;
+  var margins = {top: 10, right: 10, bottom: 30, left: 40},
+    width1 = 250 - margins.left - margins.right,
+    height1 = 300 - margins.top - margins.bottom;
 
   // append the svg object to the body of the page
   var svg1 = d3.select("#box-"+param)
@@ -425,7 +438,7 @@ function drawBox(selection, param, scaleMin, scaleMax) {
   svg1.call(d3.axisLeft(y))
 
   // a few features for the box
-  var center1 = 100
+  var center1 = 125
   var width1 = 100
 
   // Show the main vertical line
@@ -458,5 +471,6 @@ function drawBox(selection, param, scaleMin, scaleMax) {
     .attr("y1", function(d){ return(y(d))} )
     .attr("y2", function(d){ return(y(d))} )
     .attr("stroke", "black")
+
 }
 </script>

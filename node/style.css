@@ -104,8 +104,10 @@ body {
   }
 
   #details {
-    width: 40%;
+    width: 30%;
     float: left;
+    padding-right: 5%;
+    text-align: center;
   }
 
   #box-bpm, #box-length, #box-gain {
