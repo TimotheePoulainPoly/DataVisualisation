@@ -16,15 +16,15 @@ print(count)
 # Genres
 genres = []
 
-file1 = open('genres.txt', 'r')
+file1 = open('../data/genres.txt', 'r')
 count = 0
-  
+
 while True:
     count += 1
-  
+
     # Get next line from file
     line = file1.readline()
-  
+
     if (line != "" and line not in genres):
         genres.append(line)
     # if line is empty
@@ -32,11 +32,11 @@ while True:
     if not line:
         break
     print("Line {}: {}".format(count, line.strip()))
-  
+
 file1.close()
 
 print(genres)
 for g in genres:
     print("'"+g.replace('\n', '')+"', ", end = "")
-    
+
 print(len(genres))
