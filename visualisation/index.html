@@ -149,7 +149,7 @@ var axes = svg.selectAll(".axis")
     .attr("class", function(d) { return "axis " + d.key.replace(/ /g, "_"); })
     .attr("transform", function(d,i) { return "translate(" + xscale(i) + ")"; });
 
-const url = "https://raw.githubusercontent.com/TimotheePoulainPoly/DataVisualisation/main/transformed_data_rows.csv";
+const url = "https://raw.githubusercontent.com/TimotheePoulainPoly/DataVisualisation/main/data/transformed_data_rows.csv";
 
 d3.csv(url, function(error, data) {
   if (error) throw error;
