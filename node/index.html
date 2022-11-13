@@ -206,6 +206,8 @@ d3.csv(url, function(error, data) {
   d3.selectAll(".axis.title .tick text")
     .style("fill", color);
 
+    brush();
+
   function project(d) {
     return dimensions.map(function(p,i) {
       // check if data element has property and contains a value
@@ -304,10 +306,11 @@ d3.csv(url, function(error, data) {
   }
 
   function details(selected) {
-    console.log("Generating details");
-    console.log(selected);
     let genre = document.getElementById("selectMenu").value;
     var title = document.getElementById('title');
+    if (genre == "") {
+      genre = "All genres"
+    }
     title.innerHTML = "<h3>Selected genre : <b>"+genre+"</b></h3>";
     topSongs(selected);
     //d3.tsvFormat(selected.slice(0,10))
@@ -322,7 +325,7 @@ function genrePicker(genres) {
     document.getElementById('list').removeChild(select);
   }
   var option = document.createElement("option");
-  option.text = "Pick a genre";
+  option.text = "";
   select.appendChild(option);
   for (const genre of genres){
     var option = document.createElement("option");
@@ -424,7 +427,6 @@ function drawBox(selection, param, scaleMin, scaleMax) {
   selection.forEach(s => {
     databox.push(s[param]);
   });
-  console.log(databox);
 
   // Compute summary statistics used for the box:
   var data_sorted = databox.sort(d3.ascending)
