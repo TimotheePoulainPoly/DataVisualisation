@@ -1,0 +1,981 @@
+title,genres,bpm,length,gain,key
+I'll Never Smile Again,jazz,122.3,148,-18.8,
+Dear God,alternative-rock,181.0,227,-10.4,
+It's All In The Game,pop,105.5,160,-15.2,
+Hanky Panky,classic-rock,125.0,173,-12.4,
+Good Lovin',blues,105.0,143,,
+Say I Am (What I Am),classic-rock,128.0,151,-12.1,
+It's Only Love,classic-rock,139.2,127,-14.0,
+I Think We're Alone Now,classic-rock,129.6,130,-12.8,
+Gettin' Together,classic-rock,139.7,138,-11.2,
+Mirage,classic-rock,128.8,165,-12.7,
+Mony Mony,hard-rock,129.0,174,-14.2,
+Crimson And Clover,classic-rock,169.0,332,-14.0,
+Do Something To Me,classic-rock,122.0,149,-8.0,
+Crystal Blue Persuasion,soul,99.9,241,-12.7,
+Sweet Cherry Wine,classic-rock,106.8,260,-10.1,
+Ball Of Fire,classic-rock,153.0,187,-14.5,
+She,classic-rock,168.0,121,-13.7,
+Gotta Get Back To You,classic-rock,148.0,185,-13.7,
+I Follow Rivers,pop,110.0,214,-10.7,
+Pitbull:Go Girl,"['Feminism', 'Crunk', 'Electronic music', 'Hip house']",114.8,230,-9.3,
+Draggin' The Line,classic-rock,115.0,166,-13.7,
+Tommy James And The Shondells:I Think We're Alone Now,classic-rock,129.6,130,-12.8,
+Tommy James And The Shondells:Mirage,classic-rock,128.8,165,-12.7,
+Tommy James And The Shondells:Sweet Cherry Wine,classic-rock,106.8,260,-10.1,
+Tommy James And The Shondells:Hanky Panky,classic-rock,125.3,177,-13.3,
+Tommy James And The Shondells:It's Only Love,classic-rock,139.2,127,-14.0,
+Tommy James And The Shondells:Gettin' Together,classic-rock,139.7,138,-11.2,
+Tommy James And The Shondells:Mony Mony,hard-rock,129.0,174,-14.2,
+Tommy James And The Shondells:Do Something To Me,classic-rock,120.0,151,-14.2,
+Tommy James And The Shondells:Crimson And Clover,classic-rock,171.0,209,-12.7,
+Tommy James And The Shondells:Crystal Blue Persuasion,soul,99.9,241,-12.7,
+Tommy James And The Shondells:Ball Of Fire,classic-rock,153.0,187,-14.5,
+Tommy James And The Shondells:She,classic-rock,168.0,121,-13.7,
+Tommy James And The Shondells:Gotta Get Back To You,classic-rock,148.0,185,-13.7,
+I'll Be Your Everything,pop,144.0,247,-10.7,Fmaj
+Sheila,classic-rock,130.8,127,-13.6,Emin
+Dizzy,pop,101.6,172,-10.8,Emin
+Hi-Heel Sneakers,blues,168.0,169,-13.2,
+867-5309/Jenny,classic-rock,137.0,224,-11.1,Emin
+The Doxology,unknown,95.7,50,-26.1,
+All Gold Everything,hip-hop,99.9,279,-11.4,
+Leaving On A Jet Plane,['Folk music'],140.0,191,-13.1,Emaj
+Spanish Harlem (Aquella Rosa),soul,114.0,186,-14.6,Dmaj
+They're Playing Our Song,unknown,123.0,335,-10.4,Bbmaj
+Da Da Da Ich Lieb Dich Nicht Du Liebst Mich Nicht Aha Aha Aha,['Neue Deutsche Welle'],132.0,392,-18.3,
+Da Da Da I Don't Love You You Don't Love Me Aha Aha Aha,['Neue Deutsche Welle'],131.0,199,-17.3,
+Anna,classic-rock,147.0,210,-11.3,
+Rauch-Haus-Song,unknown,129.604,219,-12.3,
+Wild Thing,classic-rock,125.0,263,-15.5,
+Funky Cold Medina,classic-rock,117.0,248,-18.5,
+Mickey,pop,148.2,254,-14.9,
+You're Makin Me High,unknown,92.0,268,-12.9,
+Un-Break My Heart,unknown,110.0,271,-13.1,
+How Could An Angel Break My Heart,unknown,82.0,260,-14.7,
+Let It Flow,unknown,168.0,262,-11.6,
+You're Makin' Me High,unknown,92.0,268,-12.9,
+If You Could Only See,alternative-rock,190.0,261,-8.8,
+You Wanted More,unknown,181.3,233,-8.0,
+She's In Love With The Boy,country,124.0,245,-9.5,Ebmaj
+Wrong Side Of Memphis,country,141.0,167,-11.2,Dmaj
+Walkaway Joe,country,114.0,260,-13.7,Cmaj
+The Song Remembers When,country,159.0,234,-11.4,Fmaj
+Sweet Little Jesus Boy,unknown,113.0,162,-17.7,Bbmaj
+Away In A Manger,unknown,150.0,157,-15.6,Cmaj
+"Let It Snow, Let It Snow, Let It Snow",unknown,137.0,146,,Dmin
+The Christmas Song (Chestnuts Roasting On An Open Fire),jazz,127.0,238,,Amin
+Believe Me Baby (I Lied),country,120.0,222,-10.0,Bmin
+Everybody Knows,country,98.0,194,-10.2,E
+Silent Night,unknown,72.0,249,-9.3,Gmaj
+How Do I Live,country,126.0,242,-11.0,Dmaj
+There Goes My Baby,country,108.0,230,-8.9,Cmaj
+Powerful Thing,country,148.0,176,-8.9,Bmin
+Sad Eyes,classic-rock,113.9,251,-12.8,Dbmaj
+Seven Year Ache,country,122.0,215,-10.8,Cmaj
+Georgia Rain,country,99.0,311,-9.5,Bbmaj
+Pull Harder On The Strings Of Your Martyr,metal,145.0,291,-6.9,Dmaj
+A Gunshot To The Head Of Trepidation,metal,145.0,355,-7.4,Dmin
+Like Light To The Flies,metal,106.0,340,-7.4,Bbmaj
+Dying In Your Arms,metal,160.0,173,-7.1,Amin
+Entrance Of The Conflagration,metal,99.0,275,-6.7,Emin
+In Waves,unknown,153.1,302,-7.3,Amaj
+Built To Fall,metal,144.0,188,-6.9,Dbmin
+Slave New World,metal,96.0,178,-7.4,Dmaj
+Amami Se Vuoi,unknown,87.8,209,-10.8,
+A Fine Fine Day,classic-rock,112.961,265,-13.4,Fmin
+I Did What I Did For Maria,unknown,123.0,220,-10.9,Gmaj
+(Is This The Way To) Amarillo,pop,134.0,190,-8.7,Amaj
+It Had To Be You,pop,99.1457,178,-16.8,
+Taking A Chance On Love,unknown,152.56,130,-14.8,
+These Foolish Things (Remind Me Of You),blues,131.25,208,-10.7,
+I'll Be Seeing You,unknown,143.0,176,,
+Lost In The Stars,unknown,99.1457,205,-14.8,
+Without A Song,unknown,119.837,168,-17.0,
+Lullaby Of Broadway,unknown,180.5,144,-16.9,
+Let There Be Love,unknown,173.7,123,-16.4,
+Love For Sale,unknown,131.2,188,-16.7,
+Blues In The Night,unknown,99.6235,170,-18.5,
+Let's Face The Music And Dance,jazz,91.4685,167,-16.8,
+Just One Of Those Things,unknown,149.8,123,-18.9,
+You Go To My Head,jazz,115.485,160,-18.1,
+I Only Have Eyes For You,soft-rock,105.738,133,-16.8,
+Begin The Beguine,jazz,118.463,261,-18.8,
+Every Time We Say Goodbye,unknown,78.0,189,-11.8,
+The Way You Look Tonight,pop,95.7,184,-10.1,
+My Foolish Heart,unknown,87.0,183,,
+Time After Time,jazz,156.6,171,-9.8,
+Blue Moon,unknown,138.0,131,-23.2,
+So Far,unknown,93.75,219,-16.3,
+Just In Time,pop,154.0,114,-17.5,
+Ol' Man River,unknown,155.0,319,-16.3,
+Till,unknown,84.2032,176,-11.4,
+Tenderly,unknown,129.199,216,-15.1,
+"Bewitched, Bothered And Bewildered",unknown,74.0,154,,
+My Funny Valentine,unknown,118.125,157,-19.0,
+Man That Got Away,unknown,95.0,233,-18.5,
+Sleepin' Bee,unknown,85.0,203,,
+Street Of Dreams,jazz,91.0,133,,
+I Left My Heart In San Francisco,pop,129.2,171,-15.5,
+Once Upon A Time,unknown,152.6,178,-15.5,
+Candy Kisses,country,125.0,143,-11.4,
+The Best Is Yet To Come,jazz,120.888,152,-19.3,
+Climb Ev'ry Mountain,unknown,93.1166,141,-10.4,
+How About You/April In Paris,jazz,129.0,158,-19.1,
+Blue Velvet,pop,131.0,272,-14.1,
+Rags To Riches,unknown,135.0,72,-20.3,
+Sing You Sinners,unknown,105.0,121,-18.1,
+Speak Low,unknown,135.0,121,-21.4,
+Chicago (That Toddling Town),unknown,118.8,124,-10.8,
+Pennies From Heaven,unknown,142.0,136,-18.0,
+Smile,unknown,116.0,83,-17.9,
+I Wanna Be Around,unknown,103.0,131,-16.5,
+This Is All I Ask,unknown,112.0,193,-15.3,
+Young And Foolish,unknown,85.0,202,-19.6,
+Ain't Misbehavin',jazz,87.0,161,-15.4,
+Who Can I Turn To (When Nobody Needs Me),unknown,102.1,175,-14.5,
+Between The Devil And The Deep Blue Sea,unknown,87.8,197,-16.9,
+Waltz For Debby,jazz,142.6,219,-17.9,
+Fly Me To The Moon (In Other Words),pop,94.2,240,-13.1,
+How Insensitive,['Bossa nova'],109.0,263,-16.5,
+If I Ruled The World,unknown,124.0,180,-12.1,
+Sweet Lorraine,unknown,149.0,218,-17.2,
+Girl Talk,unknown,108.0,191,-13.9,
+The Shadow Of Your Smile,unknown,112.0,217,-16.9,
+Days Of Wine And Roses,['Easy listening'],100.0,176,-18.5,
+The Trolley Song,unknown,137.0,154,-13.3,
+The Very Thought Of You,unknown,81.0,270,,
+In The Wee Small Hours,pop,103.0,203,-16.5,
+Yesterdays,jazz,107.0,195,-14.1,
+On The Sunny Side Of The Street,unknown,120.0,140,-12.2,
+I Let A Song Go Out Of My Heart,unknown,119.0,118,,
+Old Devil Moon,jazz,113.0,182,,
+Out Of This World,unknown,102.0,188,,
+Love Is Here To Stay,unknown,163.4,163,-14.0,
+There Will Never Be Another You,unknown,91.1,114,-10.5,
+My Favorite Things,unknown,139.0,197,-13.1,
+Santa Claus Is Coming To Town,unknown,132.0,172,-10.8,
+Winter Wonderland,pop,115.0,131,-10.3,
+Have Yourself A Merry Little Christmas,unknown,132.0,182,-14.7,
+The Long And Winding Road,pop,132.9,283,-15.9,
+Wave,unknown,113.9,277,-18.3,
+Make It Easy On Yourself,blues,123.4,272,-17.8,
+Come Saturday Morning,pop,130.0,264,-16.7,
+Because Of You,unknown,108.2,177,-10.5,
+"Cold, Cold Heart",blues,99.0,163,-12.0,
+(Where Do I Begin) Love Story,unknown,140.0,193,-12.9,
+Stranger In Paradise,unknown,84.0,183,-11.6,
+But Beautiful,unknown,130.0,216,-13.9,
+How Do You Keep The Music Playing?,jazz,133.0,326,-14.1,
+Cheek To Cheek,unknown,134.0,205,-19.6,
+On Green Dolphin Street,unknown,114.0,240,,
+Just Friends,jazz,117.5,146,-15.5,
+East Of The Sun (West Of The Moon),unknown,92.0,251,-14.6,
+I Thought About You,unknown,97.0,176,-15.2,
+Night And Day,unknown,111.0,215,-14.8,
+A Nightingale Sang In Berkeley Square,unknown,101.0,175,-16.4,
+I Wished On The Moon,jazz,122.0,188,-16.7,
+Call Me Irresponsible,unknown,108.0,204,-14.9,
+Last Night When We Were Young,unknown,95.0,145,-16.3,
+Angel Eyes,unknown,93.0,162,-15.6,
+Steppin' Out With My Baby,jazz,170.1,173,-16.7,
+"Top Hat, White Tie And Tails",jazz,93.5,155,-16.1,
+September Song,unknown,131.2,231,-12.9,
+Moonglow,unknown,110.0,272,-11.7,
+People,unknown,80.0,282,-14.0,
+Somewhere Over The Rainbow,unknown,116.0,237,-12.8,
+Poor Butterfly,unknown,142.0,341,,
+Sentimental Journey,unknown,76.0,208,,
+Moonlight In Vermont,unknown,116.0,172,-19.5,
+God Bless The Child,jazz,76.0,169,,
+Honeysuckle Rose,jazz,104.0,175,-18.0,
+Solitude,jazz,89.0,176,-18.7,
+When A Woman Loves A Man,jazz,151.0,191,-18.0,
+Willow Weep For Me,unknown,157.0,180,-20.2,
+What A Little Moonlight Can Do,jazz,98.0,165,-17.5,
+Ill Wind,unknown,113.0,184,-18.2,
+Good Morning Heartache,blues,120.0,157,-19.5,
+Swinging On A Star,pop,164.0,125,-16.3,
+New York State Of Mind,classic-rock,170.0,269,-13.8,
+Tony Bennett & K.d. Lang:Dream A Little Dream Of Me,unknown,81.0,233,-13.8,Amin
+I Remember You,unknown,121.6,304,-13.3,
+Silver Bells,unknown,131.0,195,-13.8,
+O Christmas Tree,unknown,108.0,207,-16.1,
+Sting & Tony Bennett:Boulevard Of Broken Dreams,unknown,149.0,201,-14.6,
+In The Middle Of An Island,unknown,138.737,130,-14.3,
+I Will,folk-rock,112.0,244,-17.4,
+I Can Understand It,unknown,120.2,340,-14.6,
+Save A Prayer,pop,106.0,307,-13.4,
+Slave To Love,soft-rock,152.0,236,-13.9,
+She's Gone,jazz,156.0,297,-12.7,
+The First Cut Is The Deepest,classic-rock,94.6,216,-13.0,
+Free Fallin',alternative-rock,183.8,251,-13.2,
+First Of May,"['Folk music', 'Easy listening']",136.0,321,-14.1,
+Spandau Ballet:True,jazz,97.0,344,-12.8,Gmaj
+I Can't Make You Love Me,R&B,123.8,288,-17.3,
+Polk Salad Annie,unknown,131.0,223,-11.3,Emaj
+Who's Making Love,soul,117.0,192,-11.3,Emin
+Little Green Apples,blues,144.0,238,-15.9,Cmaj
+Look Of Love,jazz,97.0,198,-14.6,Amin
+Rainy Night In Georgia,blues,170.0,214,-15.2,Dmaj
+Hard To Handle,soul,105.0,173,-14.4,Amaj
+Boom Boom,blues,166.0,472,-14.5,Gbmin
+Tomorrow Never Knows,hard-rock,131.7,329,-10.0,
+Burt Bacharach & Tony Middleton:My Little Red Book,classic-rock,161.0,296,-12.9,
+Candida,unknown,127.0,183,-14.6,
+Knock Three Times,pop,123.0,177,-12.6,
+Happy Little Pill,pop,92.0,224,-9.9,
+Orange Blossom Special,['Bluegrass music'],145.0,337,-8.5,
+Antisocial,hard-rock,182.0,309,-10.4,
+Little Walter,R&B,107.0,289,-10.2,
+Alicia Keys:Diary,R&B,128.0,284,-12.4,
+Blow The Whistle,hip-hop,100.0,171,,
+L'Hymne De Nos Campagnes,['Reggae'],180.5,205,-9.5,Fmaj
+Your Love,classic-rock,140.0,190,-10.1,
+When You're Looking Like That,pop,140.0,224,-7.8,
+Summer Of '69,hard-rock,139.2,229,-9.6,
+Here I Go Again,metal,128.0,217,-8.6,
+Living On A Prayer,metal,136.0,255,-9.2,
+China In Your Hand,pop,142.0,245,-8.5,
+Take On Me,pop,140.0,285,-7.4,
+Fly On The Wings Of Love,unknown,140.0,239,-8.9,
+Cool On Your Island,pop,126.8,321,-19.4,
+Crucify,alternative-rock,166.0,299,-10.4,
+Silent All These Years,classic-rock,127.0,249,-10.6,
+Winter,unknown,157.0,343,-12.4,
+Me And A Gun,['A cappella'],77.0,222,-18.3,
+Angie,soft-rock,135.6,265,-17.2,
+Smells Like Teen Spirit,alternative-rock,87.0,195,-14.3,
+God,alternative-rock,151.0,234,-13.1,
+Cornflake Girl,alternative-rock,133.0,305,-11.7,
+Professional Widow,alternative-rock,138.0,271,-10.8,
+Caught A Lite Sneeze,alternative-rock,158.0,265,-11.4,
+Talula,alternative-rock,169.0,248,-12.7,
+Putting The Damage On,pop,107.0,310,-17.5,
+This Old Man,unknown,140.0,105,-16.1,
+Amazing Grace,unknown,133.0,409,-17.1,
+Raspberry Swirl,['Electronic dance music'],128.0,221,-8.9,
+Bliss,alternative-rock,114.0,222,-11.7,
+Dātura,alternative-rock,122.0,506,-13.7,
+1000 Oceans,alternative-rock,136.0,258,-13.0,
+New Age,unknown,149.0,276,-10.5,
+Strange Little Girl,unknown,119.0,229,-12.6,
+Enjoy The Silence,pop,161.0,249,-15.9,
+I'm Not In Love,soft-rock,136.0,339,-16.2,
+I Don't Like Mondays,pop,110.0,260,-12.2,
+Happiness Is A Warm Gun,blues,136.0,595,-10.6,
+Raining Blood,metal,146.0,382,-9.6,
+A Sorta Fairytale,classic-rock,153.0,330,-12.3,
+Don't Make Me Come To Vegas,['Dance music'],97.0,291,-9.1,
+Taxi Ride,alternative-rock,166.0,240,-9.0,
+Sweet The Sting,classic-rock,89.9,254,-12.4,
+Sleeps With Butterflies,pop,149.8,215,-11.8,
+Home On The Range (Cherokee Edition),unknown,122.0,321,-13.2,
+Big Wheel,alternative-rock,94.0,198,-12.5,
+Bouncing Off Clouds,alternative-rock,124.0,248,-11.6,
+"What Child, Nowell",unknown,115.0,225,-13.2,
+Star Of Wonder,unknown,137.0,230,-11.2,
+"Holly, Ivy And Rose",unknown,128.0,284,-12.3,
+Harps Of Gold,unknown,95.0,190,-12.2,
+"Jeanette, Isabella",unknown,140.0,268,-10.8,
+Emmanuel,unknown,128.0,179,-10.9,
+Comfort And Joy,unknown,162.0,236,-13.7,
+"Stille Nacht, Heilige Nacht (Silent Night, Holy Night)",unknown,162.0,219,-12.8,
+Good King Wenceslas,unknown,138.0,333,,
+Famous Blue Raincoat,['Folk music'],135.0,339,-19.6,
+You Belong To Me,unknown,108.0,182,-10.2,
+BT:Blue Skies,['Dance music'],126.0,306,-8.7,
+Humpty Dumpty,unknown,114.0,171,-14.9,
+Como Una Paloma Herida,pop,124.9,152,-9.7,
+Vienna,classic-rock,160.0,275,-12.7,Amin
+Dancing With Tears In My Eyes,pop,144.0,244,-12.0,Gbmaj
+Can't You See,blues,86.0,277,-10.5,
+What About Us,R&B,178.0,151,-10.7,
+I'll Supply The Love,hard-rock,125.0,224,-11.8,
+Georgy Porgy,disco,97.0,248,-18.0,
+Hold The Line,hard-rock,95.9,236,-16.2,
+99,soft-rock,178.0,312,-15.8,
+Rosanna,blues,166.0,331,-14.1,
+Make Believe,unknown,141.0,223,-16.5,
+I Won't Hold You Back,soft-rock,102.0,293,-15.7,
+Africa,soft-rock,92.0,295,-19.7,
+Stranger In Town,['New wave music'],154.0,288,-12.5,
+I'll Be Over You,soft-rock,174.446,149,-10.5,
+Pamela,jazz,97.3,310,-20.8,
+Stop Loving You,soft-rock,102.0,270,-12.0,
+2 Hearts,hard-rock,115.0,313,-11.0,
+Miss Sun,unknown,100.1,304,-12.5,
+Could You Be Loved,disco,103.4,230,-10.4,
+While My Guitar Gently Weeps,classic-rock,109.086,345,-11.3,
+Bottom Of Your Soul,soft-rock,189.65,424,-9.7,
+I Got Erection,metal,147.0,126,-11.2,Bmin
+Suffragette City,hard-rock,148.0,173,-9.1,Amaj
+Ti Amo,pop,186.0,242,-9.3,Amaj
+Gloria,disco,131.0,302,-18.7,Emaj
+Gloria (Italiano),disco,131.0,262,-6.4,Emaj
+So Freakin' Tight,['Deep house'],122.0,344,-10.8,
+Habits (Stay High),pop,120.0,258,-9.3,
+Talking Body,pop,119.0,238,-8.9,
+Alesso:Heroes (We Could Be),['Progressive house'],126.0,209,-7.0,
+So Very Hard To Go,blues,95.0,217,-10.4,
+Pancho And Lefty,country,154.0,229,-13.6,Dmaj
+Follow Me,country,104.0,218,-9.9,
+In A Little While,country,102.0,249,-6.7,
+Undercover:Baker Street,jazz,123.0,250,-14.8,
+I Melt With You,"['Post-punk', 'New wave music']",146.0,240,-7.8,
+Pearl's Girl,"['Drum and bass', 'Trance music']",149.796,496,-11.2,
+Crocodile,unknown,124.0,390,-12.5,
+Born Slippy,"['Hard trance', 'Trance music']",140.0,456,-10.8,
+Wie Wir Waren,pop,119.0,220,-9.0,Abmaj
+Wie Wir Waren (Demoversion),pop,119.0,220,-9.0,Abmaj
+In The Air,['Electro house'],128.0,196,-9.5,
+Staring At The Sun,classic-rock,119.837,241,-9.5,
+Dreams,classic-rock,129.6,309,-9.8,
+King Eternal,classic-rock,134.7,268,-7.9,
+Ambulance,classic-rock,93.3,294,-15.8,
+Poppy,classic-rock,114.8,367,-9.6,
+Don't Love You,classic-rock,99.9,332,-11.6,
+Bomb Yourself,classic-rock,130.0,332,-10.4,
+Wear You Out,classic-rock,119.8,440,-9.2,
+Wolf Like Me,classic-rock,175.0,277,-8.3,
+Crying,alternative-rock,113.9,251,-9.0,
+Dancing Choose,alternative-rock,102.8,176,-7.3,
+Golden Age,classic-rock,110.0,252,-9.6,
+DLZ,alternative-rock,175.9,229,-8.1,
+Lover's Day,alternative-rock,119.8,354,-9.3,
+I Do!!,R&B,99.0,288,-9.8,
+Life,pop,136.0,183,-7.6,
+Swing,country,107.0,216,-8.3,
+Muddy Water,country,130.8,234,-8.3,Gmaj
+Oops (Oh My),R&B,159.0,237,-9.9,
+Guns For Hands,pop,130.0,277,-9.9,
+Holding On To You,hip-hop,179.0,263,-7.6,
+Stressed Out,hip-hop,170.0,202,-8.3,
+Fairly Local,hip-hop,114.0,207,-9.3,
+Lane Boy,"['Reggae', 'Dubstep', 'Oldschool jungle']",160.0,253,-9.0,
+They Don't Know,pop,113.0,179,-13.4,
+Control,unknown,140.0,432,-10.9,Fmaj
+Fallen Angel,unknown,133.0,299,-12.2,Bmin
+Woki Mit Deim Popo,hip-hop,120.0,177,-6.6,
+Holdin' Heaven,country,189.7,151,-12.7,Fmaj
+Lifestyles Of The Not So Rich And Famous,country,138.0,172,-14.3,B
+Watermelon Crawl,country,136.9,183,-14.2,Dmin
+The Keeper Of The Stars,country,78.0,247,-15.9,Dmaj
+Big Love,country,114.5,219,-11.2,Ebmin
+Put Your Hand In Mine,country,146.1,272,-11.9,Fmaj
+Just Let Me Be In Love,country,96.0,226,-11.2,Dmin
+Ten Rounds With Jose Cuervo,country,126.0,182,-11.5,Dmaj
+Drinkin' Bone,country,110.0,132,-9.1,Fmaj
+The Truth About Men,country,146.0,176,-8.9,Emin
+Making Memories Of Us,country,107.0,224,-10.2,Gbmaj
+"Come, Thou Fount Of Every Blessing",unknown,122.0,90,-19.7,Dmaj
+Talkin' Bout A Revolution,['Contemporary folk music'],119.0,161,-11.2,Emin
+Fast Car,pop,103.0,296,-20.3,Gbmin
+Baby Can I Hold You,pop,147.0,193,-15.5,Dmaj
+Give Me One Reason,blues,100.0,268,-14.2,Emin
+Runnin' Behind,country,144.0,174,-12.3,Emaj
+Somebody Paints The Wall,country,161.0,195,-12.7,Amaj
+Today's Lonely Fool,country,160.0,229,-10.9,Dmaj
+Can't Break It To My Heart,country,136.0,174,-11.3,Fmaj
+Alibis,country,107.0,182,-16.1,Emaj
+If The Good Die Young,country,156.0,147,-11.6,Emin
+I See It Now,country,91.0,216,-11.1,Fmaj
+If The World Had A Front Porch,country,162.0,185,-13.3,Fmaj
+Dear Mr. Fantasy,blues,163.0,342,-12.0,Amaj
+Coloured Rain,classic-rock,92.0,163,-12.6,Fmaj
+Paper Sun,pop,133.0,213,-11.8,Fmaj
+Hole In My Shoe,pop,101.0,181,-12.8,
+Feelin' Alright?,folk-rock,190.0,258,-14.2,
+John Barleycorn,unknown,166.0,382,-13.6,
+Gimme Some Lovin',soul,129.0,542,-14.9,
+The Low Spark Of High Heeled Boys,jazz,106.0,704,-10.5,Bmin
+Slow Jamz,R&B,145.0,212,-10.1,
+Overnight Celebrity,hip-hop,134.0,233,-9.0,
+Hope,R&B,107.0,254,-10.2,Bmin
+Rabbit In Your Headlights,['Trip hop'],149.0,377,-12.2,
+We're Not Gonna Take It,metal,148.0,219,-10.1,Amaj
+I Wanna Rock,metal,106.0,185,-6.4,A
+I Saw Mommy Kissing Santa Claus,unknown,142.1,219,-9.4,Abmaj
+Dappens,lo-fi,185.4,387,-15.5,Fmaj
+Don't Want No Woman Who Stays Out All Night Long,lo-fi,162.8,158,-9.9,Dmin
+Seems Like Home To Me,lo-fi,114.8,227,-8.1,Bmin
+Lady,lo-fi,123.0,342,-10.4,Emin
+Up The Country,lo-fi,116.1,367,-10.4,Cmaj
+All Your Faithless Loyalties,lo-fi,136.0,317,-15.0,Amaj
+Linger On,lo-fi,91.3,477,-8.6,Cmaj
+The Deader,lo-fi,167.4,295,-9.2,Cmaj
+Miss Meri,lo-fi,157.8,198,-8.4,Bmin
+The Hand That Held Me Down,lo-fi,135.6,332,-8.4,Dbmin
+Trembling Of The Rose,lo-fi,86.5,312,-14.5,Gmaj
+Reflections Of The Marionette,lo-fi,117.8,342,-9.6,Gbmin
+Ribbons Round My Tongue,lo-fi,89.9,306,-13.8,Emaj
+Fly Low Carrion Crow,lo-fi,94.8,236,-12.3,Gmin
+My Baby's Gone,lo-fi,175.2,355,-9.9,Bmaj
+Something Good Can Work,classic-rock,119.0,165,-7.6,
+I Can Talk,unknown,162.8,175,-7.0,
+Undercover Martyn,classic-rock,159.6,166,-7.5,
+What You Know,classic-rock,138.7,189,-7.3,
+Next Year,pop,127.6,251,-8.4,
+Sun,pop,97.0,187,-8.7,
+Sleep Alone,unknown,148.2,236,-7.6,
+Changing Of The Seasons,pop,130.0,222,-7.0,
+Seein' Red,alternative-rock,102.0,227,-8.9,
+Please Come Home For Christmas,blues,121.243,122,-5.4,
+Friendship To Last,unknown,156.0,193,-11.1,
+Paranoid,R&B,97.5,216,-8.6,
+Drop That Kitty,hip-hop,106.0,216,-8.7,
+Turn Down For What,"['Trap music', 'Electronic dance music']",99.9,221,-6.8,
+You Can Leave Your Hat On,classic-rock,87.8,279,-11.6,
+Rack City,hip-hop,98.0,208,-11.1,
+Make It Nasty,hip-hop,195.0,186,-20.0,
+Faded,hip-hop,95.0,213,-11.4,
+Far Away,pop,92.0,207,-8.9,
+Still Got It,hip-hop,95.0,223,-8.5,
+Hookah,hip-hop,95.0,202,-8.8,
+Rändajad,pop,123.8,180,-9.3,Fmaj
+Sanomi,['Celtic music'],170.0,180,-9.8,
+Cantaloop (Flip Fantasia),jazz,115.0,279,-14.9,
+We Are The World,pop,145.1,427,-18.7,
+Redneck Crazy,country,146.1,216,-8.0,
+Whiskey In My Water,country,153.7,188,-8.7,
+Can U Get Wit It,hip-hop,124.0,295,-13.2,
+Think Of You,R&B,93.0,229,-13.2,
+The Many Ways,R&B,153.0,343,-13.0,
+You Make Me Wanna...,unknown,164.0,220,-11.5,
+Nice & Slow,R&B,122.0,227,-15.2,
+My Way,R&B,90.0,214,-12.4,
+Bedtime,R&B,159.0,285,-12.4,
+U Remind Me,R&B,94.0,266,-10.3,
+U Got It Bad,R&B,123.0,247,-11.3,
+Pop Ya Collar,R&B,107.0,219,-10.4,
+U-Turn,blues,182.0,189,-10.2,
+Yeah!,hip-hop,104.0,250,-8.6,
+Confessions Part II,R&B,137.0,211,-11.4,
+Burn,R&B,119.0,256,-9.8,
+Caught Up,R&B,110.0,224,-9.6,
+My Boo,R&B,86.0,223,-11.6,
+Love In This Club,R&B,139.0,309,-11.5,
+Trading Places,R&B,146.0,268,-10.3,
+Moving Mountains,R&B,115.8,301,-8.9,
+Lil Freak,blues,140.2,234,-9.5,
+Papers,R&B,119.8,260,-10.0,
+More,['Hi-NRG'],124.9,219,-6.7,
+DJ Got Us Fallin' In Love,pop,119.0,222,-6.7,
+Hot Tottie,R&B,175.2,299,-6.9,
+Enrique Iglesias:Dirty Dancer,pop,132.0,245,-8.6,
+Scream,unknown,128.0,235,-8.7,
+Climax,"['Electronic music', 'Quiet storm']",136.0,233,-9.4,
+Lemme See,unknown,154.0,252,-9.4,
+Numb,unknown,124.0,225,-8.5,
+Euphoria,unknown,128.0,260,-7.3,
+David Guetta:Without You,unknown,128.0,225,-16.2,
+Good Kisser,R&B,97.0,236,-10.0,
+I Don't Mind,R&B,113.0,251,-10.2,
+Justin Bieber:The Christmas Song (Chestnuts Roasting On an Open Fire),jazz,103.0,215,-12.3,
+Enrique Iglesias & Usher:Dirty Dancer,pop,132.0,245,-8.6,
+Call Me A Mack,blues,91.0,246,-14.5,
+DJ Got Us Falling In Love,pop,110.0,244,-21.9,
+Yonkers,hip-hop,78.9,251,-8.4,
+Domo23,hip-hop,132.9,161,-8.6,
+Christian Woman,metal,89.0,538,-12.2,Bmin
+Black No. 1 (Little Miss Scare-All),metal,107.0,675,-12.5,Abmaj
+Summer Breeze,soft-rock,126.0,289,-11.8,Amaj
+Cinnamon Girl,hard-rock,98.0,235,-9.2,Fmaj
+Day Tripper,classic-rock,107.0,422,-9.0,B
+Black Sabbath (From The Satanic Perspective),metal,94.0,464,-13.5,Amaj
+Do Ya,hard-rock,119.0,260,-14.6,
+Love Is The Answer,soft-rock,99.0,257,-14.9,
+Get Silly,['Snap music'],149.0,228,-8.8,
+Wobble (Skit),hip-hop,142.0,25,-16.9,
+Wobble,hip-hop,95.0,323,-6.3,
+Can I Change My Mind,soul,101.3,174,-12.8,
+Turn Back The Hands Of Time,blues,118.0,159,-13.7,
+Ain't No Sunshine,blues,111.1,141,-11.4,Amin
+Eleanor Rigby,pop,109.4,261,-11.8,
+Ormurin Langi,unknown,119.0,353,-8.9,
+The Wild Rover,pop,92.0,252,,
+Lokka Táttur,unknown,160.0,364,-7.8,
+Stargazer,metal,92.0,379,,
+Accept:Balls To The Wall,metal,118.1,343,-10.9,E
+Accept:Fast As A Shark,metal,140.0,234,-15.7,Emin
+Little Altar Boy,unknown,122.0,197,-15.0,Ebmin
+Red Roses For A Blue Lady,unknown,109.0,170,-12.8,Gbmaj
+Shangri-La,unknown,99.0,126,-11.6,Amaj
+Garden In The Rain,unknown,77.0,136,-12.4,Ab
+Distant Drums,unknown,95.0,186,-15.3,Abmin
+Red Red Wine,soft-rock,82.0,191,,Emaj
+I Will Follow,classic-rock,155.0,217,-10.8,
+An Cat Dubh,classic-rock,113.0,286,-11.5,
+A Day Without Me,classic-rock,155.0,193,-11.0,
+The Electric Co.,classic-rock,171.0,286,-11.9,
+Another Day,classic-rock,154.0,208,-15.3,
+Fire,classic-rock,149.0,232,-11.4,
+A Celebration,classic-rock,150.0,177,-11.5,
+Sunday Bloody Sunday,classic-rock,101.0,279,-12.1,
+New Year's Day,classic-rock,126.8,398,-7.3,
+Two Hearts Beat As One,classic-rock,141.0,243,-12.6,
+40,classic-rock,150.0,157,-11.0,
+A Sort Of Homecoming,classic-rock,117.0,328,-12.4,
+Pride (In The Name Of Love),classic-rock,209.0,230,-9.1,
+The Unforgettable Fire,classic-rock,136.0,295,-11.3,
+MLK,['Ambient music'],134.0,154,-18.3,
+Where The Streets Have No Name,classic-rock,125.0,336,-13.1,
+I Still Haven't Found What I'm Looking For,classic-rock,100.0,277,-12.2,
+With Or Without You,classic-rock,110.0,295,-14.2,
+Bullet The Blue Sky,classic-rock,152.0,271,-12.1,
+Running To Stand Still,blues,94.0,257,-18.6,
+Red Hill Mining Town,classic-rock,138.0,292,-13.3,
+One Tree Hill,classic-rock,123.0,322,-12.6,
+Mothers Of The Disappeared,classic-rock,103.0,314,-14.9,
+Sweetest Thing,classic-rock,141.0,184,-13.4,
+Helter Skelter,metal,157.0,188,-12.4,
+Desire,blues,108.0,179,-9.6,
+Hawkmoon 269,classic-rock,189.0,382,-14.9,
+All Along The Watchtower,blues,128.0,264,-14.9,
+Angel Of Harlem,classic-rock,102.0,230,-11.1,
+When Love Comes To Town,blues,115.0,252,-10.9,
+All I Want Is You,classic-rock,186.0,389,-15.5,
+Even Better Than The Real Thing,alternative-rock,128.0,221,-8.4,
+One,classic-rock,181.0,277,-10.6,
+Until The End Of The World,alternative-rock,102.0,279,-9.1,
+So Cruel,classic-rock,183.0,349,-14.4,
+The Fly,alternative-rock,108.0,275,-9.4,
+Mysterious Ways,alternative-rock,99.0,244,-10.2,
+Tryin' To Throw Your Arms Around The World,classic-rock,179.0,232,-14.1,
+Ultra Violet (Light My Way),classic-rock,107.0,330,-12.8,
+Acrobat,alternative-rock,200.0,270,-12.6,
+Love Is Blindness,alternative-rock,146.0,263,-13.9,
+Blow Your House Down,alternative-rock,133.0,210,-10.2,
+Zooropa,alternative-rock,94.0,391,-15.9,
+Lemon,disco,116.0,418,-17.5,
+"Stay (Faraway, So Close!)",alternative-rock,94.0,299,-10.6,
+Daddy's Gonna Pay For Your Crashed Car,alternative-rock,119.0,320,-15.7,
+Dirty Day,alternative-rock,102.0,324,-18.5,
+The Wanderer,classic-rock,117.0,341,-16.0,
+Discothèque,alternative-rock,120.0,320,-11.5,
+Mofo,alternative-rock,120.0,347,-8.8,
+Last Night On Earth,alternative-rock,116.0,285,-11.1,
+Gone,alternative-rock,175.0,266,-10.8,
+Please,alternative-rock,101.0,302,-13.4,
+Dancing Barefoot,classic-rock,119.0,285,-11.6,
+Everlasting Love,disco,126.0,199,-11.3,
+Unchained Melody,country,100.0,291,-12.2,
+Beautiful Day,classic-rock,136.0,245,-9.8,
+Elevation,alternative-rock,110.0,227,-8.9,
+Walk On,classic-rock,99.9,270,-7.6,
+Peace On Earth,classic-rock,101.0,288,-13.0,
+When I Look At The World,classic-rock,99.0,257,-10.1,
+New York,alternative-rock,125.0,330,-10.7,
+Passengers:Miss Sarajevo,classic-rock,104.0,340,-13.8,Abmin
+The Hands That Built America,classic-rock,162.0,298,-11.4,
+"Hold Me, Thrill Me, Kiss Me, Kill Me",alternative-rock,171.0,286,-9.8,
+Vertigo,alternative-rock,140.0,190,-7.0,
+Miracle Drug,classic-rock,124.0,239,-8.0,
+City Of Blinding Lights,classic-rock,139.0,347,-7.2,
+All Because Of You,alternative-rock,133.0,219,-5.9,
+One Step Closer,classic-rock,88.0,231,-11.6,
+Original Of The Species,classic-rock,173.0,281,-7.5,
+Yahweh,classic-rock,126.0,261,-6.4,
+Window In The Skies,classic-rock,91.0,239,-9.6,
+No Line On The Horizon,classic-rock,199.0,252,-8.6,
+Magnificent,classic-rock,114.0,324,-8.5,
+Moment Of Surrender,classic-rock,173.0,444,-9.5,
+Unknown Caller,classic-rock,103.0,362,-8.6,
+Get On Your Boots,alternative-rock,148.0,205,-8.3,
+Stand Up Comedy,alternative-rock,179.0,229,-7.0,
+Fez - Being Born,classic-rock,187.0,316,-8.9,
+White As Snow,folk-rock,87.0,281,-12.2,
+Breathe,classic-rock,117.0,300,-7.3,
+The Miracle (Of Joey Ramone),classic-rock,135.0,255,-10.8,
+Fortunate Son,hard-rock,137.0,159,-10.9,
+Jesus Christ,unknown,132.0,191,-13.1,
+Ordinary Love,classic-rock,120.0,221,-11.6,
+Paint It Black,blues,149.0,200,-11.5,
+Satellite Of Love,alternative-rock,99.0,240,-12.4,
+The Ballad Of Ronnie Drew,classic-rock,184.0,290,-10.2,
+The Night,disco,110.5,233,-11.4,Fmaj
+"Trials, Troubles, Tribulations",unknown,160.9,182,-12.7,
+Das Boot,"['Techno', 'Rave music']",122.0,314,-11.7,Fmaj
+I Got You Babe,metal,173.0,188,-9.3,
+Here I Am (Come And Take Me),soul,95.0,257,-19.2,
+The Way You Do The Things You Do,blues,161.0,182,-19.0,
+Holly Holy,classic-rock,99.0,215,-10.9,
+Dog Days Are Over,classic-rock,149.0,213,-8.4,
+"Warum Nur, Warum",unknown,179.0,178,-8.0,
+House Of The Rising Sun,unknown,117.0,211,-12.9,
+"Merci, Chérie",unknown,150.0,194,-10.6,
+Griechischer Wein,unknown,148.0,245,-9.0,
+Aber Bitte Mit Sahne,metal,124.0,217,-9.7,
+"Sag Ihr, Ich Lass Sie Grüßen",unknown,124.9,222,-9.8,
+Justice:Tthhee Ppaarrttyy,hip-hop,119.0,243,-10.3,Emaj
+All Or Nothing,unknown,120.0,269,-10.7,
+Mystery Train,blues,108.23,235,-9.5,
+Breaking Benjamin:Blow Me Away (Valora Version),metal,99.0,205,-7.3,Gmin
+The Night The Lights Went Out In Georgia,country,86.0,220,,Ebmin
+Turn The Beat Around,disco,130.0,203,-8.8,
+"Joyful, Joyful",unknown,110.0,274,-14.6,G
+Mary Did You Know,country,110.2,251,-15.1,Amin
+Giving Up The Gun,pop,133.8,286,-7.9,Amaj
+Oxford Comma,pop,119.8,195,-8.6,A
+A-Punk,pop,175.2,137,-7.0,Amaj
+Holiday,pop,156.0,138,-7.6,Bmin
+Cousins,unknown,175.9,145,-7.4,Dbmin
+Diane Young,classic-rock,179.8,160,-8.5,Dbmin
+Time To Say Goodbye (Con Te Partirò),pop,132.0,193,,Gmaj
+Bed Of Nails,metal,145.1,217,-7.2,
+J.J. Cale:Cocaine,blues,103.0,172,-14.9,Dbmaj
+Everything About You,unknown,124.0,253,-11.0,Dbmaj
+Sonderzug Nach Pankow,unknown,161.0,211,-10.7,Fmaj
+Big Rock Candy Mountain,unknown,115.0,102,-22.2,Emaj
+Runnin' With The Devil,metal,95.0,216,-8.3,
+Eruption,classic-rock,149.0,101,-9.4,
+Ain't Talkin' 'Bout Love,metal,139.0,227,-8.9,
+Dance The Night Away,hard-rock,128.0,189,-8.4,
+Spanish Fly,classic-rock,163.0,61,-17.6,
+Beautiful Girls,hard-rock,100.0,237,-7.9,
+And The Cradle Will Rock...,hard-rock,107.0,213,-9.0,
+Everybody Wants Some!!,hard-rock,143.0,308,-10.1,
+Romeo Delight,metal,106.0,259,-10.2,
+Unchained,metal,136.0,209,-9.5,
+So This Is Love?,metal,159.0,185,-9.0,
+Where Have All The Good Times Gone!,classic-rock,122.3,184,-8.1,
+(Oh) Pretty Woman,classic-rock,127.0,173,-7.3,
+Little Guitars (Intro),hard-rock,137.0,42,-14.5,
+Little Guitars,hard-rock,148.0,227,-7.6,
+Big Bad Bill (Is Sweet William Now),unknown,100.0,164,-10.5,
+Happy Trails,country,95.0,65,-9.0,
+Jump,classic-rock,129.0,244,-8.3,
+Panama,metal,140.0,212,-8.4,
+Hot For Teacher,unknown,126.0,281,-8.4,
+I'll Wait,unknown,115.0,282,-9.2,
+Why Can't This Be Love,classic-rock,176.0,211,-11.7,
+Love Walks In,classic-rock,174.0,311,-8.6,
+When It's Love,['Sentimental ballad'],99.0,338,-8.4,
+Finish What Ya Started,hard-rock,125.0,263,-10.1,
+Black And Blue,hard-rock,99.0,327,-8.2,
+Poundcake,hard-rock,105.0,320,-7.1,
+Runaround,unknown,130.0,260,-8.2,
+Right Now,hard-rock,187.0,322,-8.0,
+Top Of The World,hard-rock,128.0,234,-7.1,
+One Way To Rock,hard-rock,154.0,298,-10.9,
+You Really Got Me/Cabo Wabo,metal,137.0,478,-11.6,
+Won't Get Fooled Again,hard-rock,136.0,341,-10.8,
+Can't Stop Lovin' You,hard-rock,117.0,248,-7.4,
+Amsterdam,hard-rock,173.0,285,-8.0,
+Humans Being,hard-rock,124.0,307,-9.0,
+Can't Get This Stuff No More,hard-rock,151.0,315,-10.0,
+Me Wise Magic,metal,98.0,366,-9.4,
+Without You,hard-rock,96.0,390,-9.6,
+Tattoo,hard-rock,99.0,283,-6.6,
+She's The Woman,hard-rock,102.0,176,-5.9,
+Norwegian Wood,folk-rock,184.57,293,-11.5,
+Not Such An Innocent Girl,unknown,202.0,199,-8.6,Dbmin
+A Mind Of Its Own,pop,101.0,229,-8.9,Dbmaj
+Make It Shine,pop,136.9,187,-6.8,
+Freak The Freak Out,classic-rock,140.2,234,-6.5,
+Beggin' On Your Knees,classic-rock,130.0,194,-6.7,
+Sommersprossen,['Neue Deutsche Welle'],137.812,241,-8.4,
+The Hustle,disco,111.0,242,-16.8,
+Palästinalied,unknown,107.9,163,-11.5,
+Star Of The County Down,unknown,181.0,162,-13.3,
+Irish Heartbeat,['Celtic music'],174.446,231,-12.3,
+Raglan Road,"['Music of Ireland', 'Folk music']",122.682,296,-14.3,
+She Moved Through The Fair,unknown,127.212,284,-15.6,
+Carrickfergus,unknown,87.0,265,-15.5,
+My Lagan Love,unknown,106.0,320,-16.0,
+Brown Eyed Girl,blues,149.0,183,-11.1,
+T.B. Sheets,classic-rock,173.0,574,-15.7,
+Midnight Special,unknown,109.7,171,-14.0,
+Astral Weeks,folk-rock,162.0,426,-18.8,
+Sweet Thing,folk-rock,173.0,265,-17.7,
+Cyprus Avenue,folk-rock,132.938,359,-14.2,
+The Way Young Lovers Do,jazz,190.0,197,-15.7,
+Madame George,folk-rock,132.0,585,-19.4,
+Ballerina,folk-rock,136.0,423,-18.6,
+Slim Slow Slider,folk-rock,134.0,197,-22.8,
+And It Stoned Me,blues,151.0,272,-14.3,
+Moondance,jazz,134.0,274,-15.6,
+Crazy Love,soul,154.0,155,-18.0,
+Caravan,blues,164.0,300,-14.5,
+Into The Mystic,blues,173.0,207,-17.5,
+Come Running,unknown,195.0,151,-13.1,
+These Dreams Of You,blues,122.0,242,-13.7,
+Brand New Day,blues,132.0,68,-15.3,
+Everyone,blues,105.0,212,-13.9,
+Glad Tidings,blues,150.0,238,-15.1,
+Domino,blues,130.0,189,-18.0,
+Blue Money,blues,154.0,228,-19.4,
+Wild Night,blues,144.6,213,-11.6,
+Tupelo Honey,soft-rock,145.1,415,-13.3,
+Moonshine Whiskey,country,118.0,411,-13.2,
+Listen To The Lion,blues,147.656,671,-17.8,
+Redwood Tree,blues,121.243,185,-13.1,
+Warm Love,blues,88.5305,203,-12.7,
+Help Me,blues,166.709,369,-12.8,
+I Just Want To Make Love To You,blues,98.0,400,-9.1,
+Bring It On Home To Me,blues,145.0,282,-13.6,
+Here Comes The Night,blues,197.0,165,,Emaj
+Streets Of Arklow,folk-rock,119.146,262,-12.0,
+Bulbs,folk-rock,177.441,258,-9.6,
+Cul De Sac,folk-rock,94.6081,173,-14.2,
+Wavelength,classic-rock,148.7,365,-12.8,
+Bright Side Of The Road,country,176.683,226,-12.0,
+And The Healing Has Begun,folk-rock,131.25,482,-12.6,
+Summertime In England,blues,116.0,940,-16.1,
+Dweller On The Threshold,jazz,102.336,289,-11.4,
+Cleaning Windows,jazz,182.937,286,-13.9,
+Vanlose Stairway,['Celtic music'],112.961,252,-14.4,
+Tore Down A La Rimbaud,classic-rock,89.9,246,-11.1,
+In The Garden,jazz,139.675,347,-13.0,
+Ivory Tower,folk-rock,135.553,213,-10.7,
+Queen Of The Slipstream,folk-rock,144.1,297,-10.4,
+Someone Like You,jazz,138.0,243,-12.5,
+Did Ye Get Healed?,folk-rock,152.56,248,-11.2,
+Have I Told You Lately,soft-rock,144.055,258,-13.5,
+Coney Island,['Celtic music'],132.938,123,-14.1,
+Orangefield,['Celtic music'],164.062,232,-12.0,
+When The Saints Go Marching In,unknown,120.5,361,-18.9,
+Them:Baby Please Don't Go,blues,105.0,160,-16.3,Fmin
+Wonderful Remark,classic-rock,100.106,481,-14.2,
+Days Like This,folk-rock,187.926,190,-12.6,
+Real Real Gone,blues,142.075,217,-11.0,
+Enlightenment,folk-rock,108.2,244,-12.1,
+Why Must I Always Explain?,folk-rock,173.0,230,-12.0,
+Be Thou My Vision,['Hymn'],106.3,231,-12.2,
+Carrying A Torch,folk-rock,144.1,293,-11.7,
+Brown Eyed Girl (Alternate Take),blues,158.405,215,-15.4,
+Lonely Avenue,blues,115.485,385,-12.0,
+Good Morning Little Schoolgirl,blues,157.2,247,-10.4,
+You Make Me Feel So Free,folk-rock,102.336,193,-11.0,
+I Will Be There,jazz,135.1,151,-10.4,
+How Long Has This Been Going On?,jazz,73.8281,229,-14.5,
+Rough God Goes Riding,folk-rock,131.7,374,-12.8,
+Sometimes We Cry,folk-rock,145.6,314,-17.0,
+Goin' Down Geneva,blues,124.9,267,-10.6,
+Back On Top,blues,113.9,261,-9.5,
+Precious Time,blues,131.668,228,-9.2,
+Hey Mr. DJ,blues,104.403,229,-11.1,
+Choppin' Wood,classic-rock,113.0,211,-9.5,
+Georgia On My Mind,blues,157.2,339,-14.7,
+Baby Please Don't Go,blues,105.0,160,-16.3,Fmin
+Riptide,pop,103.1,204,-9.4,
+Mess Is Mine,pop,107.0,223,-10.9,
+Wasted Time,pop,112.0,301,-9.8,
+Georgia,pop,145.0,230,-10.6,
+First Time,pop,116.0,224,-10.0,
+Fire And The Flood,pop,114.844,249,-7.8,
+Absolutely Everybody,pop,123.047,226,-8.3,Fmaj
+Shine,pop,91.1,236,-10.7,Emaj
+Have A Look,classic-rock,189.7,218,-9.7,Amaj
+Absolutely Everybody (Latino Mix),pop,123.0,208,-12.0,Emin
+Spin,classic-rock,99.9,186,-11.3,Dbmaj
+Perfect,classic-rock,109.0,286,-7.9,Gbmaj
+Kiss Your Mama!,classic-rock,129.0,188,-6.7,Emin
+The Simple Things (Something Emotional),soul,110.0,270,-7.2,Amin
+This Is Who I Am,classic-rock,146.0,204,-5.8,Dmaj
+Mr. Mysterious,classic-rock,119.0,240,-6.3,Fmaj
+This Is Who I Am (Macho Psycho Euro Tech Remix),classic-rock,146.0,204,-5.8,Dmaj
+Mary J. Blige:Each Tear,unknown,92.0,255,-8.6,Bmin
+Amazing,classic-rock,113.9,214,-6.7,Emaj
+Big Log,blues,164.0,305,-15.5,Gmaj
+Ordinary Day,pop,92.0,238,-8.3,Amin
+A Thousand Miles,pop,95.0,236,-9.9,Emaj
+Pretty Baby,classic-rock,138.0,247,-8.7,Amaj
+White Houses,['Piano'],135.0,224,-10.2,Cmin
+Nolita Fairytale,classic-rock,186.0,206,-8.5,G
+Hands On Me,classic-rock,122.0,180,-9.9,Dmin
+Do You Hear What I Hear?,unknown,144.1,262,-9.3,Cmaj
+Wishin' And Hopin',pop,107.0,174,-12.8,Amaj
+Come Back To Me,R&B,175.9,166,-8.3,
+Say OK,R&B,95.0,223,-9.6,
+Whatever Will Be,soft-rock,136.0,227,-9.4,
+Sneakernight,jazz,103.9,181,-8.2,
+Attention,unknown,149.8,174,-7.9,
+Wichita Lineman,country,94.1771,240,-12.3,
+Macho Man,disco,132.9,321,-13.8,
+Y.M.C.A.,disco,127.0,225,-15.1,
+In The Navy,disco,127.0,339,-12.0,
+Go West,disco,124.5,217,-10.4,
+Save The Best For Last,unknown,95.0,219,-13.6,
+What Child Is This,unknown,122.0,232,-13.5,
+Colors Of The Wind,['Film score'],168.0,259,-15.2,
+Chariots Of Fire,"['Film score', 'New-age music']",136.0,209,-21.1,
+Conquest Of Paradise,"['Electronic music', 'Ambient music', '20th-century classical music']",148.0,284,-14.5,
+Ticket To Ride,folk-rock,93.0,356,-10.6,
+She's Not There,jazz,100.0,298,-17.2,
+Bang Bang,classic-rock,137.0,316,-10.2,
+Stra (Illusions Of My Childhood-Part One) / You Keep Me Hanging On / Wber (Illusions Of My Childhood-Part Two),country,172.0,445,-14.9,
+Eleanor Rigby / Elds,pop,137.0,491,-20.3,
+Season Of The Witch,classic-rock,137.0,539,-16.5,
+Walk On By,pop,171.0,299,-15.4,
+You Keep Me Hangin' On,country,170.0,179,-12.5,
+Immigrant Song,metal,109.1,200,-6.8,
+Ramble On,hard-rock,98.9,269,-9.6,
+Linus And Lucy,unknown,164.0,185,-14.2,
+Hark The Herald Angels Sing,unknown,96.0,113,-12.1,
+The Christmas Song,jazz,110.0,197,-16.9,
+Cast Your Fate To The Wind,jazz,125.0,186,-21.7,
+When I Call Your Name,country,70.0,254,-20.0,Fmaj
+My Kind Of Woman/My Kind Of Man,country,86.0,235,-12.6,Fmaj
+He's A Whore,hard-rock,159.0,169,-5.9,Amin
+Ice Ice Baby,hip-hop,116.1,254,-7.9,
+Cool Vibes,hard-rock,126.0,182,-9.3,
+Hitchin' A Ride,classic-rock,137.8,185,-14.2,
+Let It Snow! Let It Snow! Let It Snow!,unknown,117.0,185,-14.5,
+1979,alternative-rock,135.1,237,-11.0,
+One Silver Dollar,unknown,120.0,180,-19.3,
+If You Could Read My Mind (Extended Mix),pop,123.4,309,-15.8,Gmaj
+If You Could Read My Mind (Club Mix),pop,123.4,315,-15.2,Bmin
+If You Could Read My Mind,pop,122.3,723,-12.7,Gmaj
+Blister In The Sun,alternative-rock,97.0,144,-21.9,Gmaj
+Do You Really Want To Hurt Me,soul,106.0,289,-15.5,Gmaj
+Fall To Pieces,hard-rock,132.0,270,-8.2,Dbmaj
+Slither,metal,141.0,248,-7.5,Dmaj
+She Builds Quick Machines,hard-rock,149.0,242,-7.1,Dmin
+"Come On, Come In",hard-rock,136.0,239,-10.7,D
+We're Going To Ibiza,"['Reggae fusion', 'Eurodance']",103.9,216,-9.7,
+After Hours,classic-rock,160.2,232,-7.1,Emaj
+Bury Me Alive,metal,119.0,286,-7.6,
+I Knew You Were Trouble,classic-rock,154.268,218,-8.0,
+Tonight,['Broadway theatre'],133.0,128,,
+You Were On My Mind,classic-rock,142.0,155,-12.0,
+Can't Help Falling In Love,pop,72.0,157,,
+Softly As I Leave You,pop,92.0,163,-15.6,
+Great Is Thy Faithfulness,unknown,160.2,221,-10.6,
+We'll Meet Again,unknown,90.0,180,-13.4,
+Check Yes Juliet,alternative-rock,166.7,220,-6.9,
+Fade To Grey,pop,112.0,243,-15.2,Fmaj
+Dancing Lasha Tumbai,['Dance music'],144.0,191,-8.2,
+Till The End,country,92.0,166,-20.0,
+Today My World Slipped Away,country,142.1,185,-19.2,Cmaj
+Dream Of Me,country,175.2,167,-19.8,Amaj
+If You're Gonna Do Me Wrong (Do It Right),country,146.0,209,-13.3,Emaj
+I Wonder Where We'd Be Tonight,country,127.2,214,-18.1,Bmin
+Way Down Deep,country,98.0,165,-11.4,Bmin
+Turn! Turn! Turn! (To Everything There Is A Season),folk-rock,120.2,185,-17.0,Dbmaj
+I Can Tell By The Way You Dance (You're Gonna Love Me Tonight),country,112.0,166,-12.9,Ebmaj
+What Would Your Memories Do,country,86.1,169,-16.6,
+Slow Burnin' Memory,country,118.0,186,-13.9,Bbmaj
+"Dim Lights, Thick Smoke (And Loud, Loud Music)",country,142.6,211,-16.3,Emaj
+Do You Believe Me Now,country,144.6,215,-16.9,Fmin
+Is It Raining At Your House,country,140.1,179,-18.1,Dmaj
+Set 'Em Up Joe,country,119.0,146,-16.8,Dmaj
+Chiseled In Stone,country,140.6,230,-17.3,Ebmaj
+Who You Gonna Blame It On This Time,country,170.1,170,-17.7,Dmin
+That Just About Does It,country,102.1,239,-17.5,Bbmin
+I'm Still Crazy,country,187.9,166,-17.1,Dmin
+Right In The Wrong Direction,country,168.8,134,-16.9,Dbmin
+This Ain't My First Rodeo,country,166.0,184,-16.6,Bbmin
+Independent,hip-hop,173.7,213,-9.6,
+In The Jailhouse Now,country,84.0,107,,Emaj
+More And More,unknown,113.6,147,-14.9,Gbmin
+I Don't Care,country,154.3,146,-12.2,Gmaj
+There Stands The Glass,country,111.7,135,-15.5,Ebmin
+Back Street Affair,unknown,126.0,167,-15.4,
+It's Been So Long,unknown,143.0,137,-13.5,Bbmaj
+Slowly,unknown,116.0,149,-16.0,
+Crazy Arms,country,128.8,163,-13.2,Gmaj
+I Ain't Never,country,118.8,119,-13.9,Bmaj
+Graduation (Friends Forever),pop,160.0,340,-11.3,
+"Jesus Jones:Right Here, Right Now",alternative-rock,110.0,202,,
+You're A God,alternative-rock,193.0,218,-8.2,Bbmaj
+Best I Ever Had (Grey Sky Morning),country,85.8,270,-10.3,Gbmaj
+"Hasta Siempre, Comandante",unknown,111.7,231,-14.8,
+Seether,alternative-rock,105.0,196,,Bbmaj
+Number One Blind,alternative-rock,104.0,223,-13.0,
+Victrola,alternative-rock,146.0,139,-12.4,
+Volcano Girls,alternative-rock,131.0,198,-7.0,Dmaj
+Shutterbug,unknown,162.0,256,-8.2,Dmin
+Demais,pop,89.7,221,-13.8,
+My Name Is Jonas,alternative-rock,186.0,203,-7.8,
+Buddy Holly,alternative-rock,121.0,159,-9.4,Fmaj
+Undone (The Sweater Song),alternative-rock,160.0,299,-8.9,
+The Good Life,alternative-rock,136.0,257,-8.3,
+El Scorcho,alternative-rock,146.0,247,-10.1,
+Hash Pipe,alternative-rock,125.0,186,-8.5,
+Island In The Sun,alternative-rock,114.0,199,-9.4,
+Dope Nose,pop,128.0,136,-6.8,
+Beverly Hills,pop,88.0,201,-8.0,
+Perfect Situation,alternative-rock,93.0,254,-7.8,
+Troublemaker,pop,130.0,164,-11.1,
+The Greatest Man That Ever Lived (Variations On A Shaker Hymn),alternative-rock,152.0,352,-10.9,
+Pork And Beans,alternative-rock,119.0,189,-9.8,
+Dreamin',alternative-rock,123.0,309,-9.2,
+(If You're Wondering If I Want You To) I Want You To,pop,110.0,208,-9.6,
+Back To The Shack,unknown,172.0,186,-8.1,
+Lonely Girl,alternative-rock,133.0,169,-6.9,
+The British Are Coming,alternative-rock,126.0,248,-7.6,
+Cleopatra,alternative-rock,118.0,191,-7.9,
+We Wish You A Merry Christmas,unknown,149.0,84,-7.0,
+The Weight,folk-rock,142.0,270,-9.9,
+Rainbow Connection,unknown,104.0,240,-10.1,
+You Might Think,classic-rock,133.0,187,-10.1,
+Best Of Colour Solvers,alternative-rock,121.0,159,-9.4,Fmaj
+Everything I Want,unknown,98.0,180,-11.7,
+Gracias A La Vida,pop,107.0,275,-10.2,Gmaj
+Alane,['World music'],122.0,220,-11.0,
+Astronomy Domine,classic-rock,129.604,330,-13.6,
+I Only Wanna Be With You,pop,138.0,164,-5.6,Dmaj
+I'm So Lonesome I Could Cry,blues,116.0,201,-5.0,Bbmaj
+Fallen,hard-rock,148.0,300,-6.7,Dmaj
+A Warrior's Call,metal,145.0,263,-6.8,Dmaj
+My Body,alternative-rock,141.0,221,-8.3,
+Domino Dancing,pop,110.0,249,-7.6,Amin
+Suburbia,pop,126.0,216,-7.2,Emaj
+West End Girls,pop,116.5,224,-12.7,Emin
+If I Let You Go,pop,90.0,221,-9.3,
+Flying Without Wings,R&B,146.0,214,-9.2,
+Fool Again,pop,152.0,235,-9.9,
+Miss You,pop,156.0,232,-9.2,
+My Love,pop,102.0,209,-9.9,
+What Makes A Man,pop,136.0,232,-8.7,
+Uptown Girl,classic-rock,128.0,184,-8.1,
+My Girl,blues,104.0,174,-9.5,
+Queen Of My Heart,pop,109.0,259,-9.0,
+Bop Bop Baby,pop,118.1,262,-8.7,
+World Of Our Own,pop,97.0,211,-8.7,
+Hey Whatever,pop,154.0,209,-7.5,
+Obvious,pop,164.0,209,-10.7,
+To Be With You,['Acoustic music'],166.0,199,-9.0,
+Fly Me To The Moon,pop,118.0,150,-11.0,
+Come Fly With Me,pop,136.0,193,-9.8,
+Mack The Knife,jazz,166.0,188,-9.3,
+Summer Wind,unknown,88.0,177,-11.0,
+Clementine,unknown,153.0,197,-10.5,
+When I Fall In Love,pop,76.0,188,-12.3,
+Moon River,['Easy listening'],153.7,160,-10.6,
+In This Life,country,128.0,248,-10.1,
+The Rose,country,128.0,220,-11.7,
+Total Eclipse Of The Heart,['Hi-NRG'],131.7,279,-9.1,
+All Out Of Love,soft-rock,106.0,225,-10.7,
+You Light Up My Life,country,84.9,207,-9.4,
+Easy,pop,130.0,266,-9.7,
+You Are So Beautiful (To Me),pop,128.0,184,-15.5,
+Love Can Build A Bridge,country,130.0,235,-8.4,
+The Dance,country,126.0,238,-10.3,
+Butterfly Kisses,country,82.0,275,-10.8,
+If,soft-rock,92.0,162,-12.2,
+Solitaire,pop,147.0,307,-10.8,
+Us Against The World,pop,119.8,238,-8.3,
+Something Right,R&B,187.9,192,-7.7,
+I'm Already There,country,131.7,256,-9.1,
+Have You Ever,unknown,133.8,269,-8.6,
+Hard To Say I'm Sorry,R&B,142.1,237,-8.0,
+What About Now,alternative-rock,162.1,250,-6.4,
+Safe,classic-rock,140.2,234,-9.9,
+The Reason,classic-rock,83.0,234,-7.8,
+Please Stay,unknown,97.5,223,-11.3,
+Lighthouse,classic-rock,140.2,262,-8.7,
+"Bill Haley And His Comets:Shake, Rattle And Roll",blues,167.4,152,-14.6,
+Bad Boys,disco,119.0,200,-12.2,
+Club Tropicana,disco,117.0,265,-12.6,
+Wake Me Up Before You Go-Go,classic-rock,81.0,230,-10.5,
+Everything She Wants,R&B,115.0,302,-19.0,
+Freedom,pop,132.0,302,-9.8,
+George Michael:Careless Whisper,metal,152.56,302,-16.3,Gbmin
+The Edge Of Heaven,pop,152.56,274,-12.6,
+I'm Your Man,pop,132.089,243,-11.7,
+Where Did Your Heart Go?,disco,96.5975,342,-16.8,
+Careless Whisper,metal,152.56,302,-16.3,Gbmin
+Wishing I Was Lucky,pop,109.0,236,-16.5,Cmaj
+Angel Eyes (Home And Away),soft-rock,94.0,312,-17.0,Bmaj
