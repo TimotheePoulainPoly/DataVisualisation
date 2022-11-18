@@ -1,4 +1,4 @@
-# DataVisualisation - Timothée POULAIN - 2022
+# DataVisualisation - Timothée POULAIN - Léo MARACHE - 2022
 
 ## Comment ouvrir la visualisation
  - Cloner le repo
