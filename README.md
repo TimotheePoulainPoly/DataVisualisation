@@ -3,7 +3,7 @@
 ## Comment ouvrir la visualisation
  - Cloner le repo
  - Ouvrir le fichier **visualisation/Timothee/index.html** avec un navigateur (testé avec *Firefox* et *Microsoft Edge*), 
-et **visualisation/Timothee/index.html** (testé avec *Chrome*) respectivement.
+et **visualisation/Leo/index.html** (testé avec *Chrome*) respectivement.
 
 ## Contenu du repo
 - Racine : **Rapport du projet**
