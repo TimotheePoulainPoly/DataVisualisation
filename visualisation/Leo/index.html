@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Music Scatterplot</title>
+
+    <!-- D3.js -->
+    <script src="//d3js.org/d3.v4.js"></script>
+    <!-- D3-voronoi with .find(x,y) -->
+    <script src="https://d3js.org/d3-voronoi.v1.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- Open Sans & CSS -->
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:700,400,300' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            color: #525252;
+            text-align: center;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #B3B3B3;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-size: 10px;
+            fill: #6B6B6B;
+        }
+
+
+        .songs {
+            pointer-events: none;
+        }
+
+        .guide {
+            pointer-events: none;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .popover {
+            pointer-events: none;
+        }
+
+        .legendCircle {
+            stroke-width: 1;
+            stroke: #999;
+            stroke-dasharray: 2 2;
+            fill: none;
+        }
+
+        .legendLine {
+            stroke-width: 1;
+            stroke: #D1D1D1;
+            shape-rendering: crispEdges;
+        }
+
+        .legendTitle {
+            fill: #1A1A1A;
+            color: #1A1A1A;
+            text-anchor: middle;
+            font-size: 10px;
+            /*border: 2px solid #dcba0f;*/
+
+        }
+
+        .legendText {
+            fill: #949494;
+            text-anchor: start;
+            font-size: 9px;
+        }
+
+        #legend {
+            /*border: 2px solid #0fdcc4;*/
+            border: solid white;
+            border-radius: 20px;
+            box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+
+        }
+
+        #genre-legend-container {
+            /*display: flex;
+            border: 2px solid #160fdc;
+            justify-content: center;*/
+
+        }
+
+        #checkboxes-container {
+            /*display: flex;
+            flex-direction: column;
+            border: 5px solid #1A1A1A;
+             */
+        }
+
+        .genre-and-length-legend {
+            /*border: 3px dashed #d70d0d;*/
+
+
+        }
+
+        .genre-checkbox  {
+            /*margin-top: 50px;
+            margin-bottom: 0;
+            padding: 0;*/
+        }
+
+        @media (min-width: 500px) {
+            .col-sm-3, .col-sm-9 {
+                float: left;
+            }
+
+            .col-sm-9 {
+                margin-left:4%;
+                width: 68%;
+                border: solid white;
+                border-radius: 20px;
+                box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2);
+            }
+
+            .col-sm-3 {
+                width: 20%;
+                margin-left:2%;
+                margin-right: 4%;
+               /*border: 3px dashed #39d70d;*/
+
+
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="cont" class="container-fluid text-center">
+    <div class="row scatter">
+        <h2>Music Visualizer</h2>
+        <h5 style="color: #3B3B3B;">Tempo [bpm] versus Gain [dB]</h5>
+
+        <div class="col-sm-9">
+            <div id="chart"></div>
+        </div>
+        <div id="legend" class="col-sm-3" style="padding-right: 0px; padding-left: 0px;">
+            <div class="zoomTitle" style="font-size: 17px;">ZOOM</div>
+            <div style="padding-bottom: 1em;">
+                <button id="zoom_in">+</button>
+                <button id="zoom_out">-</button>
+                <button id="zoom_init">Reset</button>
+            </div>
+            <div class="legendTitle" style="font-size: 17px;">GENRE</div>
+            <div id="genre-legend-container">
+                <!-- CODE TO TEST GENRE SELECTION FEATURE, FEATURE NOT IMPLEMENTED IN THE END
+                <div id="checkboxes-container">
+                    <label for="unknown-checkbox" ></label>
+                    <input class="genre-checkbox" type="checkbox" id="unknown-checkbox" name="unknown" value="unknown" checked style=" margin-top: 5px; margin-bottom: 0px;">
+                    <label for="soul-checkbox" ></label>
+                    <input class="genre-checkbox" type="checkbox" id="soul-checkbox" name="soul" value="soul" checked style=" margin-top: 5px; margin-bottom: 0px;">
+                    <label for="metal-checkbox"></label>
+                    <input class="genre-checkbox" type="checkbox" id="metal-checkbox" name="metal" value="metal" checked style="margin-top: 2px; margin-bottom: 0px;">
+                    <label for="blues-checkbox"></label>
+                    <input class="genre-checkbox"  type="checkbox" id="blues-checkbox" name="blues" value="blues" checked style="margin-top: 2px; margin-bottom: 0px;">
+                    <label for="r&b-checkbox"></label>
+                    <input class="genre-checkbox" type="checkbox" id="r&b-checkbox" name="r&b" value="r&b" checked style="margin-top: 2px; margin-bottom: 0px;">
+                    <label for="soul-checkbox" ></label>
+                    <input class="genre-checkbox" type="checkbox" id="soul-checkbox" name="soul" value="soul" checked style="margin-top: 2px; margin-bottom: 0px;">
+                </div>-->
+                <div id="genre-length-legend" class="genre-and-length-legend"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="songs.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
