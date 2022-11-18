@@ -2,7 +2,8 @@
 
 ## Comment ouvrir la visualisation
  - Cloner le repo
- - Ouvrir le fichier **visualisation/index.html** avec un navigateur (testé avec *Firefox* et *Microsoft Edge*)
+ - Ouvrir le fichier **visualisation/Timothee/index.html** avec un navigateur (testé avec *Firefox* et *Microsoft Edge*), 
+et **visualisation/Timothee/index.html** (testé avec *Chrome*) respectivement.
 
 ## Contenu du repo
 - Racine : **Rapport du projet**
@@ -16,3 +17,6 @@
 ## Sources
 - Parallel coordinates : https://bl.ocks.org/syntagmatic/482706e0638c67836d94b20f0cb37122
 - Box-And-Whisker plots : https://d3-graph-gallery.com/graph/boxplot_basic.html
+- Scatter Plot 1 : https://d3-graph-gallery.com/graph/scatter_basic.html 
+- Scatter Plot 2 : https://d3-graph-gallery.com/graph/interactivity_zoom.html
+- Scatter Plot 3 : https://gist.github.com/pdaengeli/33bdabf368fb037506aa1da295a95cc2 
