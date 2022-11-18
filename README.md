@@ -9,8 +9,9 @@
 - dossier **visualisation** : contient le code de visualisation
  - dossier **data** : contient les données traitées au format CSV et JSON, ainsi qu'une liste des genres
  - dossier **scripts** :
-    - *read_rds.R* : Fichier de traitement des données .rds vers JSON (la conversion en CSV a été faite avec un outil externe)
-    - *tools.py* : Permet d'extraire les genres et générer les gammes possibles parmi toutes les chansons
+    - *read_rds.R* : Fichier de traitement des données .rds vers JSON (la conversion en CSV a été faite avec un outil externe).
+    - *tools.py* : Permet d'extraire les genres et générer les gammes possibles parmi toutes les chansons.
+    - *genres_reducer.py* : Pour réduire à un seul le nombre de genre par morceau.
 
 ## Sources
 - Parallel coordinates : https://bl.ocks.org/syntagmatic/482706e0638c67836d94b20f0cb37122
